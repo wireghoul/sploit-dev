@@ -1,0 +1,44 @@
+#!/usr/bin/perl
+# Buffer Overflow Pattern generator v 1.0
+# Written by Wireghoul - http://www.justanotherhacker.com
+use strict;
+use warnings;
+
+sub generate {
+    my $len=shift;
+    my $pattern='Aa0';
+    my $out = '';
+    while (length($out) < $len) {
+        $out.=$pattern;
+        $pattern++;
+    }
+    return substr($out,0,$len);
+}
+
+sub search {
+    my $string = shift;
+    # If we get a hex string, decode and reverse it
+    if ($string =~ /0x/) {
+        $string =~ s/([a-fA-F0-9][a-fA-F0-9])/chr(hex($1))/eg;
+        $string =~ s/0x//;
+        $string = reverse $string;
+    }
+    my $pat = 'Aa0';
+    my $out = '';
+    while ($out !~ m/$string/) {
+        $out.=$pat;
+        $pat++;
+    }
+    return index($out, $string);
+}
+
+if (!$ARGV[0]) { 
+   print "Buffer overflow pattern generator by Wireghoul\n$0 <size> creates pattern of size characters\n$0 string finds offset of string in pattern\n"; 
+   exit 0 ;
+}
+if ($ARGV[0] =~ m/^\d+$/) {
+    print generate($ARGV[0])."\n";
+} else {
+    print search($ARGV[0])."\n";
+}
+
