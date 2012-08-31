@@ -1,0 +1,7 @@
+From XSLT code execution to Meterpreter shells
+
+This article will describe how to execute high-level code during the processing of a XSL transform, with the goal of obtaining some Meterpreter shells. It applies to any XSLT engine capable of executing high-level code, even if the published code focus on PHP5 (in a non default configuration) and Xalan-J.
+
+Two minimalist applications processing arbitrary XML documents and XSLT stylesheets are used as the targets. Functionally, these applications are minimalist online readers for ATOM feeds. They were used during my HackInTheBox and HackInParis talks and are now publically available.
+
+Files and code taken from - http://www.agarri.fr/blog/
