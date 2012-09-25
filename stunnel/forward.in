@@ -1,0 +1,12 @@
+; Service to listen on 8443 and forward to a local non ssl port
+;cert = ./stunnel.pem
+
+; Some debugging stuff useful for troubleshooting
+;debug = 7
+foreground=no
+pid=/tmp/sslenc.pid
+client = yes
+
+[http_to_httpS]
+accept=%FWD%
+connect=%REMOTE%
