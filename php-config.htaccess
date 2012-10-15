@@ -1,0 +1,50 @@
+# All values are set to default values
+php_value allow_call_time_pass_reference 1
+php_value allow_url_include 0
+php_value always_populate_raw_post_data 0
+php_value arg_separator "&"
+php_value arg_separator.input "&"
+php_value arg_separator.output "&"
+php_value aps_tags 0
+php_value assert.active 1
+php_value assert.bail 0
+php_value assert.callback NULL
+php_value assert.quiet_eval 0
+php_value assert.warning 1
+php_value async_send 0
+php_value auto_append_file NULL
+php_value auto_detect_line_endings 0
+php_value auto_globals_jit 0
+php_value auto_prepend_file NULL
+php_value
+php_value
+php_value
+php_value
+php_value
+php_value
+php_value
+php_value
+
+# Non core settings are commented out
+# php_value apc.cache_by_default 1
+# php_value apc.optimization 0
+# php_value apd.bitmask 0
+# php_value apd.dumpdir NULL
+# php_value apd.statement_tracing 0
+# php_value 
+# php_value 
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+# php_value
+
