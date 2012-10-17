@@ -16,7 +16,7 @@ php_value auto_append_file NULL
 php_value auto_detect_line_endings 0
 php_value auto_globals_jit 0
 php_value auto_prepend_file NULL
-php_value
+php_value child_terminate 0
 php_value
 php_value
 php_value
@@ -31,19 +31,19 @@ php_value
 # php_value apd.bitmask 0
 # php_value apd.dumpdir NULL
 # php_value apd.statement_tracing 0
-# php_value 
-# php_value 
-# php_value
-# php_value
-# php_value
-# php_value
-# php_value
-# php_value
-# php_value
-# php_value
-# php_value
-# php_value
-# php_value
+# php_value axis2.client_home "~/work/axis/c/deply" 
+# php_value axis2.enable_exception 1
+# php_value axis2.enable_trace 1
+# php_value axis2.log_path "/tmp"
+# php_value bcmath.scale 0
+# php_value bcompiler.enabled 1
+# php_value birdstep.max_links -1
+# php_value blenc.key_file "/usr/local/etc/blenckeys"
+# php_value cgi.nph 0
+# php_value cgi.rfc2616_headers 0
+# php_value cli.pager ""
+# php_value cli.prompt "\\b \\> "
+# php_value cli_server.colour 0
 # php_value
 # php_value
 # php_value
