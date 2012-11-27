@@ -5,7 +5,8 @@
 # man page based fuzzing |
 # by Emmanouel Kellinis  |
 # me at cipher org uk    |
-#========================= 
+# Extended by Wireghoul  |
+#=========================
 
 
 
@@ -88,20 +89,17 @@ sub gen {
    	my ($list) = @_;
    	my (@print, $str, $i, $j);
    	my $size = @{$list};
-        
+
    	for ($i = 0; $i < 2**$size; $i++) {
       		$str = sprintf("%*.*b", $size, $size, $i);
       		@print = ();
       		for ($j = 0; $j < $size; $j++) {
          	if (substr($str, $j, 1)) { push (@print, $list->[$j]); }
       	}
-	#$fuzz = "echo '$manpage ".join(' ', @print) . "' \n";
-	#$fuzz = $fuzz."$manpage ".join(' ', @print) . " \n";
-	#system "echo \"echo '$manpage ".join(' ', @print) ."' \" >> ".$manpage.".sh  2>/dev/null" ;	
-	#system "echo \"$manpage ".join(' ', @print) ." \" >> ".$manpage.".sh  2>/dev/null" ;
-        print SHFILE "$manpage ".join(' ', @print)." >/dev/null 2>/dev/null\n";
+        print SHFILE "$manpage ".join(' ', @print)." >/dev/null 2>/dev/null &\n";
         print SHFILE "if [ \$? == 139 ]; then echo '$manpage ".join(' ', @print) ."'; fi\n";
 	$argcom++;
+  print SHFILE "wait \$!\n" if ($argcom % 100 == 0);
 	print "\r:Agrument combinations\t: $argcom" if ($argcom % 1000 == 0);
 	flush(STDOUT);
         #flush(SHFILE);
@@ -115,7 +113,7 @@ return $fuzz;
 }
 
 # Attack categories
-sub attack { 
+sub attack {
 	my ($att) = $_[0];
 	#BoF
 	my $BoF = "A"x"5001";
@@ -133,8 +131,6 @@ sub attack {
 }
 
 
-
-
 # Function = RegExp - Arguments
 sub reg {
         my ($arg) = $_[0];
@@ -143,7 +139,7 @@ sub reg {
         my $option = "$1";
 	print "\t : ".$option."\n";
         push(@argsarray,$option);
-        
+
         if ($option=~ m/\-\-[-a-zA-Z0-9]{1,30}\=/) {
         @left = split(/=/, $option); 
         #Fuzz Options that take argument	
@@ -151,7 +147,6 @@ sub reg {
 	push(@argsarray,$left[0]."=".attack(1));	
 	push(@argsarray,$left[0]."=".attack(2));	
 	}
-
 
         $countargs++;
 	}
@@ -183,20 +178,9 @@ sub reg {
         push(@argsarray,$options);
         $countargs++;
         }
-
-
-
-
 return @argsarray;
 }
 
 sub flush {
    my $h = select($_[0]); my $a=$|; $|=1; $|=$a; select($h);
 }
-
-
-
-
-
-
-
