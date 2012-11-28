@@ -5,7 +5,7 @@
 # man page based fuzzing |
 # by Emmanouel Kellinis  |
 # me at cipher org uk    |
-# Extended by Wireghoul  |
+# Extended by @Wireghoul |
 #=========================
 
 
