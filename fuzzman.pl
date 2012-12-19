@@ -8,10 +8,6 @@
 # Extended by @Wireghoul |
 #=========================
 
-
-
-#print @ARGV;
-
 $num_args = @ARGV;
 
 if ($num_args != 1)
@@ -23,7 +19,6 @@ if ($num_args != 1)
 
 my $manpage = $ARGV[0];
 my $countargs = 0;
-
 
 system "man $manpage  > $manpage.man / 2>/dev/null" ;
 
@@ -98,11 +93,11 @@ sub gen {
       	}
         print SHFILE "$manpage ".join(' ', @print)." >/dev/null 2>/dev/null &\n";
         print SHFILE "if [ \$? == 139 ]; then echo '$manpage ".join(' ', @print) ."'; fi\n";
-	$argcom++;
-  print SHFILE "wait \$!\n" if ($argcom % 100 == 0);
-	print "\r:Agrument combinations\t: $argcom" if ($argcom % 1000 == 0);
-	flush(STDOUT);
-        #flush(SHFILE);
+	  $argcom++;
+    print SHFILE "wait \$!\n" if ($argcom % 100 == 0);
+	  print "\r:Argument combinations\t: $argcom" if ($argcom % 1000 == 0);
+    flush(STDOUT);
+    #flush(SHFILE);
    }
 
 
