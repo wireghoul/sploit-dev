@@ -30,7 +30,7 @@ function read_query_result (inj)
         local err_sqlstate = res.raw:sub(5, 9)
         local err_msg      = res.raw:sub(10)
 
-        print("Query Received -", query)
+        print("Query Received -\027[01;31m\027[K", query, "\027[m\027[K")
         print("Query Error code -", err_code)
         print("Query Error Sqlstate -", err_sqlstate)
         print("Query Error message -", err_msg)
