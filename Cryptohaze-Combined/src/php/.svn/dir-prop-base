@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 65
+.htpasswd
+.htaccess-not
+.webgen.php.swp
+.GRTTableHeaders.php.swp
+
+END

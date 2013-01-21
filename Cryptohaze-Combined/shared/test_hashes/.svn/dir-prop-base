@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 112
+.makeNTLMTestFile.php.swp
+.makeSHA1TestFile.php.swp
+.makeSHA256TestFile.php.swp
+.test.swp
+.makeTestFile.php.swp
+
+END

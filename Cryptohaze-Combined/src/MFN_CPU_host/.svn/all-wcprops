@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/cryptohaze/!svn/ver/596/Cryptohaze-Combined/src/MFN_CPU_host
+END
+MFNHashTypePlainCPU.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/378/Cryptohaze-Combined/src/MFN_CPU_host/MFNHashTypePlainCPU.cpp
+END
+MFNHashTypePlainCPU_MD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/cryptohaze/!svn/ver/391/Cryptohaze-Combined/src/MFN_CPU_host/MFNHashTypePlainCPU_MD5.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/cryptohaze/!svn/ver/397/Cryptohaze-Combined/src/MFN_CPU_host/CMakeLists.txt
+END
+MFNHashTypePlainCPU_NTLM.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/cryptohaze/!svn/ver/391/Cryptohaze-Combined/src/MFN_CPU_host/MFNHashTypePlainCPU_NTLM.cpp
+END

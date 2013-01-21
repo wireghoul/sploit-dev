@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src
+END
+arg_end.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_end.c
+END
+arg_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_str.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/Makefile.in
+END
+getopt.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/getopt.c
+END
+argtable2.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/argtable2.c
+END
+arg_date.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_date.c
+END
+getopt.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/getopt.h
+END
+argtable2.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/argtable2.h
+END
+arg_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_file.c
+END
+arg_rem.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_rem.c
+END
+argtable2.def
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/argtable2.def
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/config.h.in
+END
+arg_lit.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_lit.c
+END
+arg_int.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_int.c
+END
+getopt1.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/getopt1.c
+END
+Makefile.nmake
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/Makefile.nmake
+END
+arg_rex.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_rex.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/Makefile.am
+END
+arg_dbl.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/arg_dbl.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/cryptohaze/!svn/ver/42/Cryptohaze-Combined/dependencies/argtable2-13/src/CMakeLists.txt
+END

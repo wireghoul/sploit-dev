@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/cryptohaze/!svn/ver/605/Cryptohaze-Combined/inc/MFN_CUDA_device
+END
+makeIncrementers.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/434/Cryptohaze-Combined/inc/MFN_CUDA_device/makeIncrementers.php
+END
+MFN_CUDA_ConstantCopyDefines.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/cryptohaze/!svn/ver/605/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_ConstantCopyDefines.h
+END
+MFN_CUDA_NTLM_incrementors.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/cryptohaze/!svn/ver/434/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_NTLM_incrementors.h
+END
+MFN_CUDA_SHA_incrementors.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/cryptohaze/!svn/ver/329/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_SHA_incrementors.h
+END
+MFN_CUDA_MD4.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/393/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_MD4.h
+END
+MFN_CUDA_MD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/605/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_MD5.h
+END
+MFN_CUDA_Common.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/436/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_Common.h
+END
+MFN_CUDA_incrementors.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/cryptohaze/!svn/ver/434/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_incrementors.h
+END
+MFN_CUDA_DES.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/266/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_DES.h
+END
+makeNTLMIncrementers.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/cryptohaze/!svn/ver/434/Cryptohaze-Combined/inc/MFN_CUDA_device/makeNTLMIncrementers.php
+END
+MFN_CUDA_SHA1.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/330/Cryptohaze-Combined/inc/MFN_CUDA_device/MFN_CUDA_SHA1.h
+END
+makeSHAIncrementers.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/cryptohaze/!svn/ver/329/Cryptohaze-Combined/inc/MFN_CUDA_device/makeSHAIncrementers.php
+END

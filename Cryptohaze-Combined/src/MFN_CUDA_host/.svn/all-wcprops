@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/cryptohaze/!svn/ver/618/Cryptohaze-Combined/src/MFN_CUDA_host
+END
+MFNHashTypePlainCUDA_SHA256.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_SHA256.cpp
+END
+MFNHashTypePlainCUDA_LM.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_LM.cpp
+END
+MFNHashTypePlainCUDA_NTLM.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_NTLM.cpp
+END
+MFNHashTypePlainCUDA_DoubleMD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_DoubleMD5.cpp
+END
+MFNHashTypePlainCUDA.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/cryptohaze/!svn/ver/609/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA.cpp
+END
+MFNHashTypePlainCUDA_DupNTLM.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_DupNTLM.cpp
+END
+MFNHashTypePlainCUDA_MD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/cryptohaze/!svn/ver/610/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_MD5.cpp
+END
+MFNHashTypeSaltedCUDA_IPBWL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/cryptohaze/!svn/ver/611/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypeSaltedCUDA_IPBWL.cpp
+END
+MFNHashTypePlainCUDA_16HEX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_16HEX.cpp
+END
+MFNHashTypePlainCUDA_SHA1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_SHA1.cpp
+END
+MFNHashTypePlainCUDA_DupMD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_DupMD5.cpp
+END
+MFNHashTypeSaltedCUDA_MD5_PS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypeSaltedCUDA_MD5_PS.cpp
+END
+MFNHashTypePlainCUDA_TripleMD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/290/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_TripleMD5.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/611/Cryptohaze-Combined/src/MFN_CUDA_host/CMakeLists.txt
+END
+MFNHashTypePlainCUDA_LOTUS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/src/MFN_CUDA_host/MFNHashTypePlainCUDA_LOTUS.cpp
+END

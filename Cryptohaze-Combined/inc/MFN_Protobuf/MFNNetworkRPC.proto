@@ -1,0 +1,49 @@
+// This defines the Cryptohaze MFN network RPC protobufs for sending and
+// receiving network traffic between the clients and the main server.  This is
+// likely to be extended with time.
+
+
+// This is the RPC request from the client to the server.  It is either
+// requesting information, or providing status updates (found password, cracking
+// rate, etc).
+message MFNRPCRequest {
+  // RPC request ID - what is being requested or provided.
+  optional uint32 request_id = 1;
+  // Found password hash/value if this is a found password.
+  optional bytes found_password_value = 2;
+  optional bytes found_password_hash = 3;
+  // System cracking rate in hashes per second
+  optional uint64 system_cracking_rate = 4;
+  // Number of workunits being requested for local caching
+  optional uint32 number_workunits_requested = 5;
+  // Workunit ID being submitted for completion
+  optional uint64 submitted_workunit_id = 6;
+  // Space for a packed protobuf or data blob
+  optional bytes additional_data = 7;
+  // Expected password length, when requesting workunits.
+  optional uint32 password_length = 8;
+  // Algorithm type - for multi-algorithm kernels
+  optional uint32 algorithm_type = 9;
+}
+
+
+// This is the RPC response from the server back to the client.  It is providing
+// the requested information, or simply acknowledging the receipt of information
+// provided by the client.  In many cases, this will contain a packed protobuf
+// internally that is passed to the needed class (workunit class, hash file
+// class, etc).
+message MFNRPCResponse {
+  // Respone type ID - used to decode the rest of the message
+  optional uint32 response_type_id = 1;
+  // System version ID - only updated for MAJOR network client changes!
+  optional uint32 system_version_id = 2;
+  // Class IDs, for setting up the system as a client.
+  optional uint32 hash_type_id = 3;
+  optional uint32 hash_file_id = 4;
+  optional uint32 charset_id = 5;
+  // Password length for brute forcing.
+  optional uint32 password_length = 6;
+  // Additional data for a packed protobuf - this will be routed to the hash
+  // file class and other classes.
+  optional bytes additional_data = 7;
+}

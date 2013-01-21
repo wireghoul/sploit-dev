@@ -1,0 +1,9 @@
+// Protobuf for the charset class.  This will exactly duplicate the data in a
+// charset class - one string for each vector of data.
+
+message MFNCharsetNewProtobuf {
+  // This is the charset size (number of positions with data).
+  optional uint32 charset_size = 1;
+  // Repeated for each position, in increasing order, the data.
+  repeated bytes charset_position_data = 2;
+}

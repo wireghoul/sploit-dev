@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 120
+.charsetlowersymbol.swp
+.charset1.swp
+.charsetphone.swp
+.charset_test_perpos.swp
+.charsetpassword.swp
+.charset_salt.swp
+
+END

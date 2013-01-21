@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/cryptohaze/!svn/ver/633/Cryptohaze-Combined/inc/MFN_Protobuf
+END
+MFNNetworkRPC.proto
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/391/Cryptohaze-Combined/inc/MFN_Protobuf/MFNNetworkRPC.proto
+END
+CHHashFileVSalted.proto
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/633/Cryptohaze-Combined/inc/MFN_Protobuf/CHHashFileVSalted.proto
+END
+MFNWorkunit.proto
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/573/Cryptohaze-Combined/inc/MFN_Protobuf/MFNWorkunit.proto
+END
+MFNCharsetNew.proto
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/371/Cryptohaze-Combined/inc/MFN_Protobuf/MFNCharsetNew.proto
+END
+install_protobuf_code.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/cryptohaze/!svn/ver/572/Cryptohaze-Combined/inc/MFN_Protobuf/install_protobuf_code.sh
+END
+CHHashFileVPlain.proto
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/383/Cryptohaze-Combined/inc/MFN_Protobuf/CHHashFileVPlain.proto
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/cryptohaze/!svn/ver/272/Cryptohaze-Combined/inc/MFN_Protobuf/README
+END

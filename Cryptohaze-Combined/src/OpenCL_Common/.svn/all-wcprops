@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/cryptohaze/!svn/ver/596/Cryptohaze-Combined/src/OpenCL_Common
+END
+BFIPatcher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/334/Cryptohaze-Combined/src/OpenCL_Common/BFIPatcher.cpp
+END
+MakeHeaderFromFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/516/Cryptohaze-Combined/src/OpenCL_Common/MakeHeaderFromFile.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/352/Cryptohaze-Combined/src/OpenCL_Common/CMakeLists.txt
+END
+GRTOpenCL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/cryptohaze/!svn/ver/508/Cryptohaze-Combined/src/OpenCL_Common/GRTOpenCL.cpp
+END

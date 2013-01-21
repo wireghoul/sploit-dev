@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 88
+.foobar.swp
+.CHHashFileV.cpp.swp
+.CHHashFileVPlain.cpp.swp
+.CHHashFileVPlain.pb.cpp.swp
+
+END

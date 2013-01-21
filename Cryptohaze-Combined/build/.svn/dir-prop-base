@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 248
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+src
+bin
+install_manifest.txt
+dependencies
+shared
+.CMakeCache.txt.swp
+ec2-user@ec2-184-72-87-227.compute-1.amazonaws.com
+New-Multiforcer-Crackorama
+newmf.tar.bz2
+GRTGen-Dist
+GRTGen-Dist.tar.bz2
+
+END

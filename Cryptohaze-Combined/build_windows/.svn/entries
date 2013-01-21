@@ -1,0 +1,104 @@
+10
+
+dir
+633
+https://cryptohaze.svn.sourceforge.net/svnroot/cryptohaze/Cryptohaze-Combined/build_windows
+https://cryptohaze.svn.sourceforge.net/svnroot/cryptohaze
+
+
+
+2012-04-25T03:26:51.588016Z
+293
+bitferret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c688e27f-7120-4c74-8bb3-7d38e45acc8c
+
+GRTAnalyze
+dir
+
+GRTVerify
+dir
+
+ShowConfig-OpenCL
+dir
+
+GRTIndex
+dir
+
+GRTMakeTestFile
+dir
+
+Multiforcer
+dir
+
+GRTConvert
+dir
+
+GRTGen-CUDA
+dir
+
+copyKernels.bat
+file
+
+
+
+
+2013-01-08T21:38:48.725996Z
+f0e29f947c654c51b8cd9bde0f9fa9ce
+2011-10-30T22:46:14.689956Z
+84
+bitferret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+148
+
+GRTGen-OpenCL
+dir
+
+Cryptohaze Tools
+dir
+
+GRTCrack-CUDA
+dir
+
+GRTBulkConvert
+dir
+
+GRTMerge
+dir
+
+GRTCrack-OpenCL
+dir
+

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/cryptohaze/!svn/ver/633/Cryptohaze-Combined
+END
+Makefile-Cryptohaze-Dev.mk
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/17/Cryptohaze-Combined/Makefile-Cryptohaze-Dev.mk
+END
+build_linux.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/cryptohaze/!svn/ver/325/Cryptohaze-Combined/build_linux.sh
+END
+build_linux_grtcrack.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/cryptohaze/!svn/ver/452/Cryptohaze-Combined/build_linux_grtcrack.sh
+END
+build_mac.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/cryptohaze/!svn/ver/294/Cryptohaze-Combined/build_mac.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/cryptohaze/!svn/ver/15/Cryptohaze-Combined/README
+END
+setenv_mac.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/cryptohaze/!svn/ver/78/Cryptohaze-Combined/setenv_mac.sh
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/cryptohaze/!svn/ver/580/Cryptohaze-Combined/CMakeLists.txt
+END
+build_windows.bat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/cryptohaze/!svn/ver/294/Cryptohaze-Combined/build_windows.bat
+END

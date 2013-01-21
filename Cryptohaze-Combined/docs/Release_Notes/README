@@ -1,0 +1,31 @@
+The releases are now combined into single releases.  You'll want the latest Cryptohaze-Combined release for your platform.
+
+Note that, as of now, all the releases are 64-bit only.  It IS possible to build a 32-bit release, but the rainbow table tools will not work on large files as 32-bit binaries (memory mapping of large files cannot be done in 32-bit processes).  If you need a 32-bit Multiforcer, or a 32-bit table generation tool, it can be done.  If you would like to see 32-bit releases for some reason, let me know.
+
+CHANGELOG:
+
+=== 1.31a ===
+Added GTX680 support to the builds.
+Put the right DLL in the Windows build.
+
+=== 1.31 ===
+All tools: Build against CUDA 4.2
+Multiforcer: Add IP address cracking scripts
+Multiforcer: Fix issue that could prevent finding all hashes in certain cases
+
+
+=== 1.30 ===
+Multiforcer: Added proper resume support.
+Multiforcer: Added "robust workunit" support to retry failed workunits if a network client disconnects.
+GRTCrack: Added --debugdump to dump candidate hashes and chains for debugging and benchmarking.
+GRTCrack: Fixed a bug in which multiple passwords found in a table would lead to an incorrect cracked hash count.
+GRTCrack: Number of prefetch threads is now displayed in the status pane.
+GRTCrack: Table filename only displayed instead of full path to prevent annoying line wrapping.
+All tools: Should have better help output for command line syntax.
+GRTCrack: WebTables will now skip the final candidate hashes by default to prevent disclosure of target hashes to the WebTables server.
+GRTCrack: Fix a bug with large files on Windows that leads to incorrect number of chains being checked.
+GRTMerge: Added --movesorted flag to move sorted files to a completed directory.
+Multiforcer: Added --devdebug flag for developer debug output.
+
+
+

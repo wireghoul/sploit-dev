@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos
+END
+newdemo.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/newdemo.c
+END
+ptest.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/ptest.c
+END
+tui.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/tui.c
+END
+worm.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/worm.c
+END
+tui.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/tui.h
+END
+tuidemo.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/tuidemo.c
+END
+firework.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/firework.c
+END
+xmas.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/xmas.c
+END
+rain.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/rain.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/README
+END
+testcurs.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/demos/testcurs.c
+END

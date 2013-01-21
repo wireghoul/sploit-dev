@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/cryptohaze/!svn/ver/616/Cryptohaze-Combined/setup_scripts
+END
+setupOSXBuildEnvironment.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/cryptohaze/!svn/ver/597/Cryptohaze-Combined/setup_scripts/setupOSXBuildEnvironment.sh
+END
+setupLinuxBuildEnvironment.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/cryptohaze/!svn/ver/616/Cryptohaze-Combined/setup_scripts/setupLinuxBuildEnvironment.sh
+END

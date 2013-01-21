@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32
+END
+bccwin32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/bccwin32.mak
+END
+mingwin32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/mingwin32.mak
+END
+pdcutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcutil.c
+END
+gccwin32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/gccwin32.mak
+END
+pdcsetsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcsetsc.c
+END
+pdcurses.rc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcurses.rc
+END
+lccwin32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/lccwin32.mak
+END
+dmcwin32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/dmcwin32.mak
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/README
+END
+pdcclip.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcclip.c
+END
+pdcurses.ico
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcurses.ico
+END
+vcwin32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/vcwin32.mak
+END
+wccwin32.mak
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/wccwin32.mak
+END
+pdcdisp.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcdisp.c
+END
+pdckbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdckbd.c
+END
+pdcwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcwin.h
+END
+pdcscrn.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcscrn.c
+END
+pdcgetsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/win32/pdcgetsc.c
+END

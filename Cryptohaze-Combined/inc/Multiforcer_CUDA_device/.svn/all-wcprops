@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/cryptohaze/!svn/ver/265/Cryptohaze-Combined/inc/Multiforcer_CUDA_device
+END
+CUDAIncrementers.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/cryptohaze/!svn/ver/22/Cryptohaze-Combined/inc/Multiforcer_CUDA_device/CUDAIncrementers.h
+END
+CUDAReverseMD5Incrementers.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/cryptohaze/!svn/ver/22/Cryptohaze-Combined/inc/Multiforcer_CUDA_device/CUDAReverseMD5Incrementers.h
+END
+CUDAcommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/265/Cryptohaze-Combined/inc/Multiforcer_CUDA_device/CUDAcommon.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/cryptohaze/!svn/ver/108/Cryptohaze-Combined/libs/linux_64
+END
+libboost_filesystem.a
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/108/Cryptohaze-Combined/libs/linux_64/libboost_filesystem.a
+END
+libboost_system.a
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/cryptohaze/!svn/ver/99/Cryptohaze-Combined/libs/linux_64/libboost_system.a
+END
+libboost_thread.a
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/cryptohaze/!svn/ver/99/Cryptohaze-Combined/libs/linux_64/libboost_thread.a
+END
+libargtable2.a
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/cryptohaze/!svn/ver/18/Cryptohaze-Combined/libs/linux_64/libargtable2.a
+END
+libcurl.a
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/cryptohaze/!svn/ver/66/Cryptohaze-Combined/libs/linux_64/libcurl.a
+END
+libboost_random.a
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/cryptohaze/!svn/ver/103/Cryptohaze-Combined/libs/linux_64/libboost_random.a
+END

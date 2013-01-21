@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/inc/MFN_CPU_host
+END
+MFN_CPU_NTLM_inc.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/272/Cryptohaze-Combined/inc/MFN_CPU_host/MFN_CPU_NTLM_inc.h
+END
+MFNHashTypePlainCPU_NTLM.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/cryptohaze/!svn/ver/273/Cryptohaze-Combined/inc/MFN_CPU_host/MFNHashTypePlainCPU_NTLM.h
+END
+makeIncrementers.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/272/Cryptohaze-Combined/inc/MFN_CPU_host/makeIncrementers.php
+END
+MFN_CPU_inc.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/cryptohaze/!svn/ver/272/Cryptohaze-Combined/inc/MFN_CPU_host/MFN_CPU_inc.h
+END
+MFNSSE2_MD4.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/cryptohaze/!svn/ver/272/Cryptohaze-Combined/inc/MFN_CPU_host/MFNSSE2_MD4.h
+END
+MFNHashTypePlainCPU.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/541/Cryptohaze-Combined/inc/MFN_CPU_host/MFNHashTypePlainCPU.h
+END
+MFNSSE2_MD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/cryptohaze/!svn/ver/237/Cryptohaze-Combined/inc/MFN_CPU_host/MFNSSE2_MD5.h
+END
+MFNHashTypePlainCPU_MD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/cryptohaze/!svn/ver/242/Cryptohaze-Combined/inc/MFN_CPU_host/MFNHashTypePlainCPU_MD5.h
+END
+makeNTLMIncrementers.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/cryptohaze/!svn/ver/272/Cryptohaze-Combined/inc/MFN_CPU_host/makeNTLMIncrementers.php
+END

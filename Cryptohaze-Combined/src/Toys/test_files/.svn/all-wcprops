@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/cryptohaze/!svn/ver/333/Cryptohaze-Combined/src/Toys/test_files
+END
+des.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/des.h
+END
+des2.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/des2.h
+END
+deviceQuery.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/deviceQuery.txt
+END
+vectortest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/vectortest.cpp
+END
+abc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/abc
+END
+CUDASHA256.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/333/Cryptohaze-Combined/src/Toys/test_files/CUDASHA256.c
+END
+LMTest.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/LMTest.c
+END
+SdkMasterLog.csv
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/SdkMasterLog.csv
+END
+sha256.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/sha256.c
+END
+CUDASHA256.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/333/Cryptohaze-Combined/src/Toys/test_files/CUDASHA256.h
+END
+des.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/des.c
+END
+testdes.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/testdes.c
+END
+des2.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/des2.c
+END
+sha256.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/331/Cryptohaze-Combined/src/Toys/test_files/sha256.h
+END

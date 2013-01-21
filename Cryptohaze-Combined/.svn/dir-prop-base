@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 159
+.dep.inc
+.Makefile.inc.swp
+.MFNHashTypePlainOpenCL_MD5_Cayman.il.swp
+.Makefile.swp
+.build_linux.sh.swp
+.build_mac.sh.swp
+.output.txt.swp
+.sha1_numeric.txt.swp
+
+END

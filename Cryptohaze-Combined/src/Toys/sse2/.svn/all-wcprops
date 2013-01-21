@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/cryptohaze/!svn/ver/273/Cryptohaze-Combined/src/Toys/sse2
+END
+testing1.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/cryptohaze/!svn/ver/235/Cryptohaze-Combined/src/Toys/sse2/testing1.c
+END
+testing2.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/cryptohaze/!svn/ver/235/Cryptohaze-Combined/src/Toys/sse2/testing2.c
+END
+md4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/cryptohaze/!svn/ver/235/Cryptohaze-Combined/src/Toys/sse2/md4.txt
+END
+sse2md4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/271/Cryptohaze-Combined/src/Toys/sse2/sse2md4.cpp
+END
+sse2md5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/235/Cryptohaze-Combined/src/Toys/sse2/sse2md5.cpp
+END
+sse2md4.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/cryptohaze/!svn/ver/272/Cryptohaze-Combined/src/Toys/sse2/sse2md4.h
+END
+sse2md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/cryptohaze/!svn/ver/235/Cryptohaze-Combined/src/Toys/sse2/sse2md5.h
+END
+sse2md4_new.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/cryptohaze/!svn/ver/273/Cryptohaze-Combined/src/Toys/sse2/sse2md4_new.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/cryptohaze/!svn/ver/235/Cryptohaze-Combined/src/Toys/sse2/Makefile
+END

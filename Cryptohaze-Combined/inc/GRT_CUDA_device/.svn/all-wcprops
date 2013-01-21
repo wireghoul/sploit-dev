@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/cryptohaze/!svn/ver/17/Cryptohaze-Combined/inc/GRT_CUDA_device
+END
+CUDA_Load_Store_Registers.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/cryptohaze/!svn/ver/17/Cryptohaze-Combined/inc/GRT_CUDA_device/CUDA_Load_Store_Registers.h
+END
+CUDA_Reduction_Functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/cryptohaze/!svn/ver/17/Cryptohaze-Combined/inc/GRT_CUDA_device/CUDA_Reduction_Functions.h
+END

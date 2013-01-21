@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/cryptohaze/!svn/ver/352/Cryptohaze-Combined/dependencies
+END
+curl-7.26.0.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/cryptohaze/!svn/ver/352/Cryptohaze-Combined/dependencies/curl-7.26.0.tar.gz
+END
+protobuf-2.4.1.tar.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/352/Cryptohaze-Combined/dependencies/protobuf-2.4.1.tar.bz2
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/cryptohaze/!svn/ver/352/Cryptohaze-Combined/dependencies/CMakeLists.txt
+END

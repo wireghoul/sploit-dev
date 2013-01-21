@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/cryptohaze/!svn/ver/632/Cryptohaze-Combined/src/MFN_OpenCL_host
+END
+MFNHashTypePlainOpenCL_DoubleSHA256.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_DoubleSHA256.cpp
+END
+MFNHashTypePlainOpenCL_LOTUS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_LOTUS.cpp
+END
+MFNHashTypeSaltedOpenCL_Phpass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/622/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_Phpass.cpp
+END
+MFNHashTypePlainOpenCL_SMD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_SMD5.cpp
+END
+MFNHashTypePlainOpenCL_SHA256.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_SHA256.cpp
+END
+MFNOpenCLMetaprograms.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/cryptohaze/!svn/ver/600/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNOpenCLMetaprograms.cpp
+END
+MFNKernels.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/622/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNKernels.cpp
+END
+MFNHashTypePlainOpenCL_NTLM.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_NTLM.cpp
+END
+MFNHashTypeSaltedOpenCL_PhpassWL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/cryptohaze/!svn/ver/630/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_PhpassWL.cpp
+END
+MFNHashTypePlainOpenCL_NTLMWL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_NTLMWL.cpp
+END
+MFNHashTypePlainOpenCL_DoubleMD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_DoubleMD5.cpp
+END
+MFNHashTypePlainOpenCL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/cryptohaze/!svn/ver/632/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL.cpp
+END
+MFNHashTypeSaltedOpenCL_IPB.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_IPB.cpp
+END
+MFNHashTypePlainOpenCL_MD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_MD5.cpp
+END
+MFNHashTypeSaltedOpenCL_IPBWL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_IPBWL.cpp
+END
+MFNHashTypePlainOpenCL_MD5WL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_MD5WL.cpp
+END
+MFNHashTypePlainOpenCL_16HEX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_16HEX.cpp
+END
+MFNHashTypePlainOpenCL_SHA1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_SHA1.cpp
+END
+MFNHashTypePlainOpenCL_SNTLM.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_SNTLM.cpp
+END
+MFNHashTypePlainOpenCL_DupMD5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypePlainOpenCL_DupMD5.cpp
+END
+MFNHashTypeSaltedOpenCL_MD5_PS.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/615/Cryptohaze-Combined/src/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_MD5_PS.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/622/Cryptohaze-Combined/src/MFN_OpenCL_host/CMakeLists.txt
+END

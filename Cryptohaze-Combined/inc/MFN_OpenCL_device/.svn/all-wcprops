@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/cryptohaze/!svn/ver/544/Cryptohaze-Combined/inc/MFN_OpenCL_device
+END
+MFNHashTypeMD4.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/395/Cryptohaze-Combined/inc/MFN_OpenCL_device/MFNHashTypeMD4.h
+END
+MFNHashTypeMD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/395/Cryptohaze-Combined/inc/MFN_OpenCL_device/MFNHashTypeMD5.h
+END
+makeIncrementers.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/cryptohaze/!svn/ver/224/Cryptohaze-Combined/inc/MFN_OpenCL_device/makeIncrementers.php
+END
+MFNHashTypeHeader.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/cryptohaze/!svn/ver/395/Cryptohaze-Combined/inc/MFN_OpenCL_device/MFNHashTypeHeader.h
+END
+makeNTLMIncrementors.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/cryptohaze/!svn/ver/288/Cryptohaze-Combined/inc/MFN_OpenCL_device/makeNTLMIncrementors.php
+END
+MFN_OpenCL_NTLM_incrementors.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/288/Cryptohaze-Combined/inc/MFN_OpenCL_device/MFN_OpenCL_NTLM_incrementors.h
+END
+MFN_OpenCL_incrementors.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/cryptohaze/!svn/ver/261/Cryptohaze-Combined/inc/MFN_OpenCL_device/MFN_OpenCL_incrementors.h
+END

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host
+END
+MFNHashTypePlainOpenCL_DupMD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_DupMD5.h
+END
+MFNHashTypeSaltedOpenCL_MD5_PS.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_MD5_PS.h
+END
+MFNHashTypePlainOpenCL_DoubleSHA256.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_DoubleSHA256.h
+END
+MFNHashTypePlainOpenCL_LOTUS.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_LOTUS.h
+END
+MFNHashTypeSaltedOpenCL_Phpass.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_Phpass.h
+END
+MFNHashTypePlainOpenCL_SMD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_SMD5.h
+END
+MFNHashTypePlainOpenCL_SHA256.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_SHA256.h
+END
+MFNOpenCLMetaprograms.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNOpenCLMetaprograms.h
+END
+MFNHashTypePlainOpenCL_NTLM.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_NTLM.h
+END
+MFNHashTypeSaltedOpenCL_PhpassWL.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_PhpassWL.h
+END
+MFNHashTypePlainOpenCL_NTLMWL.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_NTLMWL.h
+END
+MFNHashTypePlainOpenCL_DoubleMD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_DoubleMD5.h
+END
+MFNHashTypePlainOpenCL.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/cryptohaze/!svn/ver/622/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL.h
+END
+MFNHashTypeSaltedOpenCL_IPB.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_IPB.h
+END
+MFNHashTypePlainOpenCL_MD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_MD5.h
+END
+MFNHashTypeSaltedOpenCL_IPBWL.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypeSaltedOpenCL_IPBWL.h
+END
+MFNHashTypePlainOpenCL_MD5WL.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_MD5WL.h
+END
+MFNHashTypePlainOpenCL_16HEX.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_16HEX.h
+END
+MFNHashTypePlainOpenCL_SHA1.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_SHA1.h
+END
+MFNHashTypePlainOpenCL_SNTLM.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/cryptohaze/!svn/ver/624/Cryptohaze-Combined/inc/MFN_OpenCL_host/MFNHashTypePlainOpenCL_SNTLM.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/cryptohaze/!svn/ver/157/Cryptohaze-Combined/shared/grt_verification
+END
+test_grt_files.md5
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/cryptohaze/!svn/ver/157/Cryptohaze-Combined/shared/grt_verification/test_grt_files.md5
+END
+test_cuda.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/157/Cryptohaze-Combined/shared/grt_verification/test_cuda.sh
+END
+test_opencl.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/157/Cryptohaze-Combined/shared/grt_verification/test_opencl.sh
+END

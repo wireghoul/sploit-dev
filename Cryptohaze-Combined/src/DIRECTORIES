@@ -1,0 +1,12 @@
+A general description of what's in each directory in here.
+
+The include tree follows the same structure.
+
+
+GRT_Common: Common files for all the GPU Rainbow Table tools: Table files/etc.
+CH_Common: Common files between various Cryptohaze tools
+CUDA_Common: Common CUDA files/etc.
+OpenCL_Common: Common OpenCL files/etc.
+GRT_CUDA_device: Device .cu files for CUDA Rainbow Tables
+GRT_CUDA_host: Host .cpp files for CUDA Rainbow Tables
+Toys: Things I'm playing with.

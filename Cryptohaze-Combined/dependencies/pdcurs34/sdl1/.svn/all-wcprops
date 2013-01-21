@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1
+END
+pdcclip.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/pdcclip.c
+END
+pdcsdl.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/pdcsdl.h
+END
+sdltest.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/sdltest.c
+END
+pdcutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/pdcutil.c
+END
+pdcdisp.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/pdcdisp.c
+END
+pdckbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/pdckbd.c
+END
+pdcsetsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/pdcsetsc.c
+END
+deffont.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/deffont.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/Makefile
+END
+Makefile.mng
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/Makefile.mng
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/README
+END
+deficon.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/deficon.h
+END
+pdcgetsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/pdcgetsc.c
+END
+pdcscrn.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/sdl1/pdcscrn.c
+END

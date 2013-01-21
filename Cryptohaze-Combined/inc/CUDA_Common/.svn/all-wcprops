@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/cryptohaze/!svn/ver/508/Cryptohaze-Combined/inc/CUDA_Common
+END
+CUDASHA1.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/22/Cryptohaze-Combined/inc/CUDA_Common/CUDASHA1.h
+END
+cuPrintf.cu
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/cryptohaze/!svn/ver/239/Cryptohaze-Combined/inc/CUDA_Common/cuPrintf.cu
+END
+Hash_Common.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/17/Cryptohaze-Combined/inc/CUDA_Common/Hash_Common.h
+END
+CUDA_MD4.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/40/Cryptohaze-Combined/inc/CUDA_Common/CUDA_MD4.h
+END
+CUDAMD4.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/cryptohaze/!svn/ver/22/Cryptohaze-Combined/inc/CUDA_Common/CUDAMD4.h
+END
+CUDA_MD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/40/Cryptohaze-Combined/inc/CUDA_Common/CUDA_MD5.h
+END
+CUDAMD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/cryptohaze/!svn/ver/173/Cryptohaze-Combined/inc/CUDA_Common/CUDAMD5.h
+END
+cuPrintf.cuh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/cryptohaze/!svn/ver/22/Cryptohaze-Combined/inc/CUDA_Common/cuPrintf.cuh
+END
+CUDA_Common.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/43/Cryptohaze-Combined/inc/CUDA_Common/CUDA_Common.h
+END
+CUDALM.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/cryptohaze/!svn/ver/203/Cryptohaze-Combined/inc/CUDA_Common/CUDALM.h
+END
+CUDASHA256.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/149/Cryptohaze-Combined/inc/CUDA_Common/CUDASHA256.h
+END
+CUDA_SAFE_CALL.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/457/Cryptohaze-Combined/inc/CUDA_Common/CUDA_SAFE_CALL.h
+END
+CHCudaUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/cryptohaze/!svn/ver/508/Cryptohaze-Combined/inc/CUDA_Common/CHCudaUtils.h
+END
+CUDA_SHA1.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/cryptohaze/!svn/ver/40/Cryptohaze-Combined/inc/CUDA_Common/CUDA_SHA1.h
+END

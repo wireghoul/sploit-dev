@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 86
+.CHHashFileV.h.swp
+.CHHashFileVPlain.h.swp
+.CHHashFileVLM.h.swp
+.CHHashFileVIKE.h.swp
+
+END

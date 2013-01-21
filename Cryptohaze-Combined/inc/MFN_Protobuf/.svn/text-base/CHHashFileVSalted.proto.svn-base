@@ -1,0 +1,24 @@
+// Protobuf definition for the salted hash file type.
+// This is focused on sending *uncracked* hashes around over the network.  The
+// cracked hashes don't need to be sent in bulk to the remote system.  There is
+// also a buffer defined for sending the cracked hashes back to the server.
+// This sends salted hash/value pairs around as needed, paired with their
+// additional data as needed.  By doing this, the base salted class can send
+// almost all the possible hash types around without them needing to do any
+// overriding of behavior.
+
+message MFNHashFileSaltedProtobuf {
+  optional uint32 hash_length_bytes = 1;
+  optional uint32 salt_length_bytes = 2;
+  message SaltedHash {
+    optional bytes hash = 1;
+    optional bytes salt = 2;
+    optional uint32 iteration_count = 3;
+    optional bytes other_data_1 = 4;
+    optional bytes other_data_2 = 5;
+    optional bytes other_data_3 = 6;
+    optional bytes other_data_4 = 7;
+    optional bytes other_data_5 = 8;
+  }
+  repeated SaltedHash salted_hash_value = 3;
+}

@@ -1,0 +1,39 @@
+phpass hashes (spelled as desired) are obtained from a library written by
+solardesigner and Openwall and available here: http://www.openwall.com/phpass/
+
+They start with a '$P$' or (in phpBB3) '$H$' prefix.  They are an iterated MD5
+hash algorithm with the output partially base64 encoded (though the entire
+output is base64 encoded characters).  The base64 encoding is not a standard
+base64 encoding, but is a somewhat custom algorithm done with the following
+character set for output (referred to as the phpass encoding from here on):
+./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+The first character following the 3 magic bytes is the iteration count.  This is
+chosen from the above character set, and is output as the character from the
+correct position.  The actual iteration count is (1 << count) and will always be
+a power of two.
+
+The next 8 characters (positions 4-12) are the salt.  They will be chosen from
+the above character set as well typically, though this is not strictly required.
+Note that the salt is literal, and not encoded.
+
+Finally, the phpass encoded 16 bytes of MD5 output are appended.
+
+The hashing algorithm is as follows:
+
+Initial step: $hash = md5($salt.$pass, true);
+
+The initial step generates 16 bytes of binary output from the MD5 function.
+
+Iteratons:
+for ($i = 0; $i < $iterations; $i++) {
+  $hash = md5($hash.$password, true);
+}
+
+The iterations append the password to the 16 bytes of binary output, and
+return the result of the MD5 in binary (16 bytes).
+
+Questions?  Check the source. :)
+
+There really aren't very many optimizations to apply here.  Standard MD5
+algorithm enhancements apply.

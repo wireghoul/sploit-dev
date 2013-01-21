@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/cryptohaze/!svn/ver/596/Cryptohaze-Combined/src/CUDA_Common
+END
+CUDA_Common.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/cryptohaze/!svn/ver/444/Cryptohaze-Combined/src/CUDA_Common/CUDA_Common.cpp
+END
+CHCudaUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/cryptohaze/!svn/ver/508/Cryptohaze-Combined/src/CUDA_Common/CHCudaUtils.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/cryptohaze/!svn/ver/239/Cryptohaze-Combined/src/CUDA_Common/CMakeLists.txt
+END

@@ -1,0 +1,9 @@
+This directory contains various files related to the Cryptohaze use of
+Google Protocol Buffers.  They seem like a great way to transfer data between
+classes and form network RPC streams.  Almost like they were designed to do
+exactly that by really, really smart people.  The binary protocol is quite
+tightly packed, the interfaces are easy, and I no longer have to worry nearly
+as much about network versioning with this.  So, great option going forward
+(I think) and I'll be trying it out.
+
+http://code.google.com/p/protobuf/ is a good place to start reading on them.

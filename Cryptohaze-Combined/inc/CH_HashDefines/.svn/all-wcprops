@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/cryptohaze/!svn/ver/561/Cryptohaze-Combined/inc/CH_HashDefines
+END
+CH_MD5.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/cryptohaze/!svn/ver/561/Cryptohaze-Combined/inc/CH_HashDefines/CH_MD5.h
+END
+CH_SHA256.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/cryptohaze/!svn/ver/486/Cryptohaze-Combined/inc/CH_HashDefines/CH_SHA256.h
+END
+CH_NTLM.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/486/Cryptohaze-Combined/inc/CH_HashDefines/CH_NTLM.h
+END
+CH_SHA1.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/486/Cryptohaze-Combined/inc/CH_HashDefines/CH_SHA1.h
+END

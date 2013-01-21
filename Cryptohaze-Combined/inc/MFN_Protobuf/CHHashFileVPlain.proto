@@ -1,0 +1,9 @@
+// Protobuf definition for the plain hash file type.
+// This is focused on sending *uncracked* hashes around over the network.  The
+// cracked hashes don't need to be sent in bulk to the remote system.  There is
+// also a buffer defined for sending the cracked hashes back to the server.
+
+message MFNHashFilePlainProtobuf {
+  optional uint32 hash_length_bytes = 1;
+  repeated bytes hash_value = 2;
+}

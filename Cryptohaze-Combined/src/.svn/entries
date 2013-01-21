@@ -1,0 +1,168 @@
+10
+
+dir
+633
+https://cryptohaze.svn.sourceforge.net/svnroot/cryptohaze/Cryptohaze-Combined/src
+https://cryptohaze.svn.sourceforge.net/svnroot/cryptohaze
+
+
+
+2013-01-07T06:32:42.194910Z
+633
+bitferret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c688e27f-7120-4c74-8bb3-7d38e45acc8c
+
+CH_HashFiles
+dir
+
+NetworkWords_Common
+dir
+
+NetworkWords_CUDA_device
+dir
+
+MFN_CPU_host
+dir
+
+CUDA_Common
+dir
+
+Multiforcer_CUDA_host
+dir
+
+GRT_CUDA_host
+dir
+
+php
+dir
+
+MFN_Common
+dir
+
+OpenCL_Common
+dir
+
+GRT_OpenCL_host
+dir
+
+MFN_CUDA_device
+dir
+
+Toys
+dir
+
+MFN_OpenCL_device
+dir
+
+NetworkWords_CUDA_host
+dir
+
+CH_Common
+dir
+
+Multiforcer_Common
+dir
+
+GRT_Common
+dir
+
+HASH_TESTS
+dir
+
+Multiforcer_CUDA_device
+dir
+
+GRT_CUDA_device
+dir
+
+MFN_CUDA_host
+dir
+
+GRT_OpenCL_device
+dir
+
+DIRECTORIES
+file
+
+
+
+
+2013-01-08T21:38:29.149997Z
+03cf9e6ef92db6043f5d4499f540f235
+2011-10-02T23:33:45.348133Z
+15
+bitferret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+462
+
+MFN_OpenCL_host
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2013-01-08T21:38:29.149997Z
+516fc2c4a3dd5420ece0f644d8f1559e
+2012-06-23T21:36:43.190339Z
+377
+peefourtee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+763
+

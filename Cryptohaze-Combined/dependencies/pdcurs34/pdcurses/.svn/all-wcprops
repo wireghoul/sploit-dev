@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses
+END
+refresh.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/refresh.c
+END
+scroll.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/scroll.c
+END
+instr.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/instr.c
+END
+getyx.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/getyx.c
+END
+insch.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/insch.c
+END
+bkgd.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/bkgd.c
+END
+getstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/getstr.c
+END
+inchstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/inchstr.c
+END
+beep.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/beep.c
+END
+scanw.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/scanw.c
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/util.c
+END
+delch.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/delch.c
+END
+kernel.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/kernel.c
+END
+printw.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/printw.c
+END
+terminfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/terminfo.c
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/debug.c
+END
+slk.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/slk.c
+END
+getch.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/getch.c
+END
+deleteln.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/deleteln.c
+END
+panel.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/panel.c
+END
+deprec.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/deprec.c
+END
+termattr.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/termattr.c
+END
+addch.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/addch.c
+END
+pad.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/pad.c
+END
+move.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/move.c
+END
+window.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/window.c
+END
+attr.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/attr.c
+END
+initscr.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/initscr.c
+END
+inopts.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/inopts.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/README
+END
+scr_dump.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/scr_dump.c
+END
+outopts.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/outopts.c
+END
+border.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/border.c
+END
+color.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/color.c
+END
+overlay.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/overlay.c
+END
+inch.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/inch.c
+END
+addstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/addstr.c
+END
+insstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/insstr.c
+END
+touch.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/touch.c
+END
+clear.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/clear.c
+END
+mouse.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/mouse.c
+END
+keyname.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/keyname.c
+END
+addchstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/41/Cryptohaze-Combined/dependencies/pdcurs34/pdcurses/addchstr.c
+END

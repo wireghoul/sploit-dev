@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/cryptohaze/!svn/ver/630/Cryptohaze-Combined/src/MFN_OpenCL_device
+END
+MFNHashTypePlainOpenCL_MD5WL.cl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/cryptohaze/!svn/ver/560/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_MD5WL.cl
+END
+MFN_OpenCL_MD5.cl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/cryptohaze/!svn/ver/556/Cryptohaze-Combined/src/MFN_OpenCL_device/MFN_OpenCL_MD5.cl
+END
+MFNHashTypePlainOpenCL_16HEX.cl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/cryptohaze/!svn/ver/411/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_16HEX.cl
+END
+MFNHashTypePlainOpenCL_SHA1.cl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/411/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_SHA1.cl
+END
+MFN_OpenCL_PasswordCopiers.cl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/620/Cryptohaze-Combined/src/MFN_OpenCL_device/MFN_OpenCL_PasswordCopiers.cl
+END
+MFNHashTypePlainOpenCL_SNTLM.cl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/cryptohaze/!svn/ver/549/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_SNTLM.cl
+END
+MFN_OpenCL_Common.cl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/cryptohaze/!svn/ver/554/Cryptohaze-Combined/src/MFN_OpenCL_device/MFN_OpenCL_Common.cl
+END
+MFNHashTypePlainOpenCL_DupMD5.cl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/411/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_DupMD5.cl
+END
+MFNHashTypeSaltedOpenCL_MD5_PS.cl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/cryptohaze/!svn/ver/411/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypeSaltedOpenCL_MD5_PS.cl
+END
+makeIncrementorCaseStatement.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/230/Cryptohaze-Combined/src/MFN_OpenCL_device/makeIncrementorCaseStatement.php
+END
+MFNHashTypePlainOpenCL_DoubleSHA256.cl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/cryptohaze/!svn/ver/603/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_DoubleSHA256.cl
+END
+MFN_OpenCL_BIN2HEX.cl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/cryptohaze/!svn/ver/601/Cryptohaze-Combined/src/MFN_OpenCL_device/MFN_OpenCL_BIN2HEX.cl
+END
+MFN_OpenCL_SaltUtilities.cl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/cryptohaze/!svn/ver/552/Cryptohaze-Combined/src/MFN_OpenCL_device/MFN_OpenCL_SaltUtilities.cl
+END
+MFNHashTypePlainOpenCL_LOTUS.cl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/cryptohaze/!svn/ver/514/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_LOTUS.cl
+END
+MFNHashTypeSaltedOpenCL_Phpass.cl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/cryptohaze/!svn/ver/627/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypeSaltedOpenCL_Phpass.cl
+END
+MFNHashTypePlainOpenCL_SMD5.cl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/549/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_SMD5.cl
+END
+MFNHashTypePlainOpenCL_SHA256.cl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/411/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_SHA256.cl
+END
+MFNHashTypePlainOpenCL_NTLM.cl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/533/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_NTLM.cl
+END
+MFNHashTypeSaltedOpenCL_PhpassWL.cl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/cryptohaze/!svn/ver/630/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypeSaltedOpenCL_PhpassWL.cl
+END
+MFNHashTypePlainOpenCL_NTLMWL.cl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/594/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_NTLMWL.cl
+END
+MFN_OpenCL_SHA256.cl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/cryptohaze/!svn/ver/601/Cryptohaze-Combined/src/MFN_OpenCL_device/MFN_OpenCL_SHA256.cl
+END
+MFN_OpenCL_NTLM.cl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/cryptohaze/!svn/ver/552/Cryptohaze-Combined/src/MFN_OpenCL_device/MFN_OpenCL_NTLM.cl
+END
+MFNHashTypePlainOpenCL_DoubleMD5.cl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/cryptohaze/!svn/ver/558/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_DoubleMD5.cl
+END
+MFNHashTypeSaltedOpenCL_IPB.cl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/cryptohaze/!svn/ver/622/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypeSaltedOpenCL_IPB.cl
+END
+MFNHashTypePlainOpenCL_MD5.cl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/cryptohaze/!svn/ver/459/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypePlainOpenCL_MD5.cl
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/622/Cryptohaze-Combined/src/MFN_OpenCL_device/CMakeLists.txt
+END
+MFNHashTypeSaltedOpenCL_IPBWL.cl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/cryptohaze/!svn/ver/568/Cryptohaze-Combined/src/MFN_OpenCL_device/MFNHashTypeSaltedOpenCL_IPBWL.cl
+END

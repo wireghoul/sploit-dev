@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/cryptohaze/!svn/ver/144/Cryptohaze-Combined/libs/darwin_64
+END
+libboost_filesystem.a
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/cryptohaze/!svn/ver/144/Cryptohaze-Combined/libs/darwin_64/libboost_filesystem.a
+END
+libboost_system.a
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/cryptohaze/!svn/ver/98/Cryptohaze-Combined/libs/darwin_64/libboost_system.a
+END
+libboost_thread.a
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/cryptohaze/!svn/ver/98/Cryptohaze-Combined/libs/darwin_64/libboost_thread.a
+END
+libargtable2.a
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/cryptohaze/!svn/ver/28/Cryptohaze-Combined/libs/darwin_64/libargtable2.a
+END
+libcurl.a
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/cryptohaze/!svn/ver/76/Cryptohaze-Combined/libs/darwin_64/libcurl.a
+END
+libboost_random.a
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/cryptohaze/!svn/ver/144/Cryptohaze-Combined/libs/darwin_64/libboost_random.a
+END

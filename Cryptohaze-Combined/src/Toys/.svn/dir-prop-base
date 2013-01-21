@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 97
+.serializationTest.cpp.swp
+.testinc.c.swp
+.ciscoTest.php.swp
+.md5crypt.php.swp
+.dom_http.cpp.swp
+
+END
