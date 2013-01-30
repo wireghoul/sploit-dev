@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Breaks Websphere Passwords stored in the {XOR} format
+# Decrypts Websphere Passwords stored in the {XOR} format
 # Usage: WSxorcracker.pl "{XOR}abc="
 #
 use strict;
