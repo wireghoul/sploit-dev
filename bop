@@ -37,7 +37,7 @@ if (!$ARGV[0]) {
    exit 0 ;
 }
 if ($ARGV[0] =~ m/^\d+$/) {
-    print generate($ARGV[0])."\n";
+    print generate($ARGV[0]);
 } else {
     print search($ARGV[0])."\n";
 }
