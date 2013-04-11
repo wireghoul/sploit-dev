@@ -3,7 +3,7 @@
 # Written by Wireghoul - http://www.justanotherhacker.com
 # Date: 2013/04/11
 # Software Link: http://www.exploit-db.com/wp-content/themes/exploit/applications/e16d7fb0fcbaab7ad5f2408bc2006394-KNet.exe
-# Version: 1.06b
+# Version: 1.04b
 # Tested on: WinXP SP3
 
 use IO::Socket::INET;
