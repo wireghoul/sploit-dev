@@ -1,0 +1,2 @@
+# Dumping request variables via firephp could lead to cross site tracing of basic auth credentials and other sensitive header data
+echo -e 'GET / HTTP/1.1\r\nHost: www.firephp.org\r\nX-Secret: AUTHZ\r\nCookie: SESSIONID=abc\r\nUser-Agent: Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0 FirePHP/0.1\r\n\r\n' | nc www.firephp.org 80 | more
