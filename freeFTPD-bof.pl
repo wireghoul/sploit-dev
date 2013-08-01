@@ -1,6 +1,9 @@
 #!/usr/bin/perl
 # freeFTPd 1.0.10 anonymous-auth PASS SEH buffer overflow
 # PoC by Wireghoul - www.justanotherhacker.com
+# Exploit Title: [title]
+# Date: 20130801
+# Tested on: XPSP3
 # Similar exploits:
 # EDB 23079 1330 1339
 # Greetz corelan, TecR0C, mr_me
