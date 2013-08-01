@@ -5,7 +5,7 @@
 # Tested on: XPSP3
 # Similar exploits:
 # EDB 23079 1330 1339
-# Greetz corelan, TecR0C, mr_me, jjkakk
+# Greetz corelan, TecR0C, mr_me, jjkakakk
 
 if (scalar(@ARGV) != 2) { "Usage $0 host port\n"; exit; }
 use IO::Socket::INET;
