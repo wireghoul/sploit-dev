@@ -3,9 +3,9 @@
 # Injection can occur via the Host header
 # As the injection occurs in a user defined insert statement a bit of trial and error is required
 # Database operations occurs asyncronous to page response so timing attacks wont work
-# This one is truely blind
+# This one is completely blind, exfiltration would have to occur OOB
 # DB can be mysql or postgres, this PoC only covers postgres
-# PoC executes netcat to listen on port 4444 (requires dba privileges)
+# PoC executes netcat to listen on port 4444 (requires privileged account)
 use IO::Socket::INET;
 
 print "#----------------------------------------------#\n";
