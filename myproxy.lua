@@ -24,7 +24,7 @@ end
 function read_query_result (inj)
     local res = assert(inj.resultset)
     -- if res.query_status == proxy.MYSQLD_PACKET_ERR then
-    if (res.query_status == proxy.MYSQLD_PACKET_ERR) or (res.warning_count > 0) then
+    if (res.query_status == proxy.MYSQLD_PACKET_ERR) then
         local query = string.sub(inj.query, 2)
         local err_code     = res.raw:byte(2) + (res.raw:byte(3) * 256)
         local err_sqlstate = res.raw:sub(5, 9)
@@ -34,7 +34,17 @@ function read_query_result (inj)
         print("Query Error code -", err_code)
         print("Query Error Sqlstate -", err_sqlstate)
         print("Query Error message -", err_msg)
-        print("Query warnings -", res.warning_count)
+    elseif (res.warning_count > 0) then
+        local query = string.sub(inj.query, 2)
+        local err_code     = res.raw:byte(2) + (res.raw:byte(3) * 256)
+        local err_sqlstate = res.raw:sub(5, 9)
+        local err_msg      = res.raw:sub(10)
 
+        print("Query Received -\027[33m\027[K", query, "\027[m\027[K")
+        print("Query warnings -", res.warning_count)
     end
+end
+
+function read_auth(moo)
+    -- print("\027[01;30m\027[KLogin\027[m\027[K")
 end
