@@ -1,0 +1,197 @@
+<!-- saved from url=(0023)http://www.example.com/ -->
+
+<!-- Test cases for HeapLib -->
+
+<html>
+<head>
+
+<style type="text/css">
+    li { margin-bottom: 0.2em; }
+    h1 { font-size: 1.4em; }
+    h2 { font-size: 1.3em; }
+</style>
+
+<script type="text/javascript" src="heapLib.js"></script>
+
+<script type="text/javascript">
+
+
+//
+// Allocates and frees blocks of different sizes
+//
+
+function testAllocFree() {
+
+    var heap = new heapLib.ie(0x20000);
+
+    heap.debugHeap(true);
+    heap.gc();
+
+    heap.debug("Allocating a 0x20000 byte block");
+    heap.alloc(0x20000);
+
+    heap.debug("Allocating two 0x2000 byte blocks");
+    heap.alloc(0x2000, "foo");
+    heap.alloc(0x2000, "foo");
+
+    heap.debug("Allocating a 0x110 byte block filled with 'A' characters");
+
+    heap.alloc("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "bar");
+    
+    heap.debug("Deleting the 0x2000 byte blocks");
+    heap.free("foo");
+
+    heap.debug("Deleting the 0x110 byte block");
+    heap.free("bar");
+
+    heap.debugHeap(false);
+
+    // This should fail becasue the size is larger than maxAlloc
+
+    var success = false;
+
+    try {
+        heap.alloc(0x2008);
+        success = true;
+    } catch(e) {}
+
+    if (success)
+        throw "Allocation for 0x20000 bytes succeeded";
+
+
+    // This should fail becase the size is not divisible by 16
+
+    try {
+        heap.alloc(0x2008);
+        success = true;
+    } catch(e) {}
+
+    if (success)
+        throw "Allocation for 0x2008 bytes succeeded";
+
+    try {
+        heap.alloc(0x2001);
+        success = true;
+    } catch(e) {}
+
+    if (success)
+        throw "Allocation for 0x2001 bytes succeeded";
+
+    try {
+        heap.alloc("AAAAAAAAAAAAAAAA");
+        success = true;
+    } catch(e) {}
+
+    if (success)
+        throw "Allocation for 22 bytes succeeded";
+
+    try {
+        heap.alloc("AAAA");
+        success = true;
+    } catch(e) {}
+
+    if (success)
+        throw "Allocation for 10 bytes succeeded";
+
+    // This should fail because the size cannot be flushed out of the cache
+
+    try {
+        heap.alloc(32);
+        success = true;
+    } catch(e) {}
+
+    if (success)
+        throw "Allocation for 32 bytes succeeded";
+
+    delete heap;
+}
+
+
+//
+// Adds two blocks to the free list
+//
+
+function testFreeList() {
+
+    var heap = new heapLib.ie();
+
+    heap.gc();
+    heap.debugHeap(true);
+
+    heap.debug("Defragmenting the heap with blocks of size 0x2000");
+    for (var i = 0; i < 100; i++)
+        heap.alloc(0x2000);
+
+    heap.debug("Creating two holes of size 0x2000");
+    heap.freeList(0x2000, 2);
+
+    heap.debugHeap(false);
+
+    delete heap;
+}
+
+
+//
+// Adds two blocks to the lookaside list
+//
+
+function testLookaside() {
+
+    var heap = new heapLib.ie();
+
+    // Build the messages now to avoid messing up the heap later
+    var lookasideAddr = heap.hex(heap.lookasideAddr(1008));
+    var msg1 = "The lookaside at 0x" + lookasideAddr + " should be empty.";
+    var msg2 = "The two freed blocks should be on the lookaside at 0x" + lookasideAddr;
+
+    heap.gc();
+    heap.debugHeap(true);
+
+    heap.debug("Emptying the lookaside");
+    for (var i = 0; i < 100; i++)
+        heap.alloc(1008);
+
+    heap.debug(msg1);
+
+    heap.debug("Freeing blocks to the lookaside")
+    heap.lookaside(1008, 2);
+
+    heap.debug(msg2);
+    heap.debugBreak();
+
+    heap.debugHeap(false);
+
+    delete heap;
+}
+
+</script>
+</head>
+
+<body>
+
+<h1>HeapLib tests</h1>
+
+<ul>
+    <li>Allocate and free heap blocks: <a href="javascript:testAllocFree()">testAllocFree</a></li>
+    <li>Add two blocks to the free list: <a href="javascript:testFreeList()">testFreeList</a></li>
+    <li>Add two blocks to the lookaside: <a href="javascript:testLookaside()">testLookaside</a></li>
+</ul>
+
+<h2>Debugging</h2>
+
+<p>To see the heap allocations and debugging output in Internet Explorer, set the following WinDbg breakpoints:</p>
+
+<pre>
+bc *
+bu 7c9106eb "j (poi(esp+4)==0x150000) '.printf \"alloc(0x%x) = 0x%x\", poi(esp+c), eax; .echo; g'; 'g';"
+bu ntdll!RtlFreeHeap "j ((poi(esp+4)==0x150000) &amp; (poi(esp+c)!=0)) '.printf \"                          free(0x%x), size=0x%x\", poi(esp+c), wo(poi(esp+c)-8)*8-8; .echo; g'; 'g';"
+bd 0 1
+bu jscript!JsAtan2 "j (poi(poi(esp+14)+18) == babe) '.printf \"DEBUG: %mu\", poi(poi(poi(esp+14)+8)+8); .echo; g';"
+bu jscript!JsAtan "j (poi(poi(esp+14)+8) == babe) '.echo DEBUG: Enabling heap breakpoints; be 0 1; g';"
+bu jscript!JsAsin "j (poi(poi(esp+14)+8) == babe) '.echo DEBUG: Disabling heap breakpoints; bd 0 1; g';"
+bu jscript!JsAcos "j (poi(poi(esp+14)+8) == babe) '.echo DEBUG: heapLib breakpoint'"
+g
+</pre>
+
+</body>
+</html>

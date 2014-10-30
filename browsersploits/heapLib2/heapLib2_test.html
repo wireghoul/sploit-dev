@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script type="text/javascript" src="heapLib2.js"></script>
+</head>
+
+<body>
+
+<!-- new_str will be allocated from the default heap  --> 
+<h1 id="wonk" data-wonk="wonky">honk</h1>
+
+<script type="text/javascript">
+function testAllocation()
+{
+    var obj = document.getElementById("wonk");
+
+    var heap = new heapLib2.ie(obj, 0x80000); 
+
+    var i = 0; 
+
+    //General Breakpoints of interest
+    //APP_DATA Allocator
+    //  bp oleaut32!APP_DATA::AllocCachedMem ".if poi(esp+4) = SIZE {} .else {gc}"
+    //APP_DATA DeAllocator
+    //  bp oleaut32!APP_DATA::FreeCachedMem ".if poi(esp+4) = ADDR {} .else {gc}"
+    //  OR more general
+    //  bp oleaut32!APP_DATA::FreeCachedMem ".if poi(esp+8) = SIZE {} .else {gc}"
+
+    //this will create custom elements and allocate them
+    //through the default process heap via the cache allocator
+    //bp ntdll!RtlAllocateHeap ".if poi(esp+c) = 0x110 {} .else {gc}" (windows 7)
+    alert("loop alloc");
+    for(i = 0; i < 10; i++)
+        heap.alloc("new_attr"+i, 0x110); 
+
+    //alloc using mshtml!_HeapAllocString
+    //no 4-byte size included
+    alert("no bstr");
+    heap.alloc_nobstr("CHRISDOG1234567890");
+
+    alert("bigalloc");
+    var spray = unescape("%u9090%u9090"); 
+
+    //will allocate 0x40010 bytes Round16((size * 2) + 6)
+    //bp ntdll!RtlAllocateHeap ".if poi(esp+c) = 0x40010 {} .else {gc}" (windows 7)
+    while(spray.length < 0x20000) { spray += spray } 
+    
+    //this will bypass the cache allocator
+    heap.sprayalloc("big_attr", spray); 
+
+    alert("free");
+
+    //this will free one of the objects of size 0x110
+    //record the address that is returned on the first iteration and change 0xADDR below
+    //bp ntdll!RtlFreeHeap ".if poi(esp+c) = 0xADDR {} .else {gc}"
+    heap.free("new_attr0");
+
+    //record the address used in 'sprayalloc' and change 0xADDR
+    //bp ntdll!RtlFreeHeap ".if poi(esp+c) = 0xADDR {} .else {gc}"
+    heap.free("big_attr");
+}
+</script>
+
+<ul>
+    <li>Test Allocation: <a href="javascript:testAllocation()">testAllocation</a></li>
+</ul>
+
+</body>
+
+</html>
