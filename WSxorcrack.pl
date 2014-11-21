@@ -8,7 +8,7 @@ use MIME::Base64;
 
 
 my $rawstr = $ARGV[0];
-$rawstr=~ s/^{XOR}//;
+$rawstr=~ s/^{XOR}//i;
 print "$rawstr\n";
 my $xorstr = decode_base64($rawstr);
 for my $echar (split //, $xorstr) {
