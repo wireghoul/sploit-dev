@@ -1,0 +1,283 @@
+<!doctype html>
+<html class="no-js home">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Insomnia Security, New Zealand</title>
+		<meta name="description" content="Information security specialists in web application security, penetration testing and other security related services">
+		<meta name="keywords" content="penetration testing web application security auckland new zealand">
+		
+		<!--[if lt IE 9]>
+			<script src="js/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" media="all" href="css/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+		
+		
+		<!-- JS -->
+		<script src="js/jquery-1.6.4.min.js"></script>
+		
+		<!--  <script src="js/less-grid-4.js"></script> -->
+		<script src="js/custom.js"></script>
+		<script src="js/tabs.js"></script>
+		
+		<!-- Masonry -->
+		<script src="js/masonry.min.js" ></script>
+		<script src="js/imagesloaded.js" ></script>
+		<!-- ENDS Masonry -->
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+
+		<!-- GOOGLE FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+		
+		<!-- Flex Slider -->
+		<link rel="stylesheet" href="css/flexslider.css" >
+		<script src="js/jquery.flexslider-min.js"></script>
+		<!-- ENDS Flex Slider -->
+		
+		
+		<!--[if IE 6]>
+		<link rel="stylesheet" href="css/ie6-hacks.css" media="screen" />
+		<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+			<script>
+          		/* EXAMPLE */
+          		DD_belatedPNG.fix('*');
+        	</script>
+		<![endif]-->
+		
+		<!-- Lessgrid -->
+		<link rel="stylesheet" media="all" href="css/lessgrid.css"/>
+		
+
+	</head>
+	
+	<body lang="en">
+	
+
+		<!-- mobile-nav -->
+		<div id="mobile-nav-holder">
+			<div class="wrapper">
+				<ul id="mobile-nav">
+					<li><a href="/home">Home</a></li>
+<li><a href="/company-profile">About Us</a>
+	<ul>
+	    <li><a href="/company-profile">Company Profile</a></li>
+	    <li><a href="/staff-profiles">Staff Profiles</a></li>
+	    <li><a href="/crest-membership">Crest Membership</a></li>
+	</ul>
+</li>
+<li><a href="/services">Services</a>
+	<ul>
+		<li><a href="/application-review">Application Review</a></li>
+		<li><a href="/capability-driven-testing">Capability Driven Testing</a></li>
+		<li><a href="/client-side-review">Client-side Review</a></li>
+		<li><a href="/host-hardening-review">Host Hardening Review</a></li>
+		<li><a href="/mobile-security">Mobile Security Reviews</a></li>
+		<li><a href="/penetration-testing">Penetration Testing</a></li>
+		<li><a href="/red-team-testing">Red Team Testing</a></li>
+		<li><a href="/source-code-review">Source Code Review</a></li>
+		<li><a href="/vulnerability-scanning">Vulnerability Scanning</a></li>
+		<li><a href="/wireless-security-review">Wireless Security Review</a></li>
+	</ul>
+</li>
+<li><a href="/releases">Releases</a></li>
+<li><a href="/events">Events</a></li>
+<li><a href="/contact">Contact Us</a></li>
+
+				</ul>
+				<div id="nav-open"><a href="#">Menu</a></div>
+			</div>
+		</div>
+		<!-- ENDS mobile-nav -->
+		
+
+
+		<header>
+			<div class="wrapper">
+					
+				<a href="/home" id="logo"><img  src="img/logo.png" alt="Insomnia Security"></a>
+				<!-- Black-on-white logo for printing. -->
+				<a href="/home" id="print-logo"><img  src="img/logo-bw.png" alt="Insomnia Security"></a>
+				
+				<nav>
+					<ul id="nav" class="sf-menu">
+						<li><a href="/home">Home</a></li>
+<li><a href="/company-profile">About Us</a>
+	<ul>
+	    <li><a href="/company-profile">Company Profile</a></li>
+	    <li><a href="/staff-profiles">Staff Profiles</a></li>
+	    <li><a href="/crest-membership">Crest Membership</a></li>
+	</ul>
+</li>
+<li><a href="/services">Services</a>
+	<ul>
+		<li><a href="/application-review">Application Review</a></li>
+		<li><a href="/capability-driven-testing">Capability Driven Testing</a></li>
+		<li><a href="/client-side-review">Client-side Review</a></li>
+		<li><a href="/host-hardening-review">Host Hardening Review</a></li>
+		<li><a href="/mobile-security">Mobile Security Reviews</a></li>
+		<li><a href="/penetration-testing">Penetration Testing</a></li>
+		<li><a href="/red-team-testing">Red Team Testing</a></li>
+		<li><a href="/source-code-review">Source Code Review</a></li>
+		<li><a href="/vulnerability-scanning">Vulnerability Scanning</a></li>
+		<li><a href="/wireless-security-review">Wireless Security Review</a></li>
+	</ul>
+</li>
+<li><a href="/releases">Releases</a></li>
+<li><a href="/events">Events</a></li>
+<li><a href="/contact">Contact Us</a></li>
+
+					</ul>
+				</nav>
+				
+				<div class="clearfix"></div>
+				
+			</div>
+		</header>
+	
+	
+	
+	
+		<!-- MAIN -->
+		<div id="main">
+		
+			<!-- Content -->
+			<div id="content">
+			
+				<!-- slider -->
+		        <div class="flexslider home-slider">
+				  <ul class="slides">
+				    <li>
+				      <img src="img/slides/1.jpg" alt="Highly specialised information security consultancy services" />
+				      <p class="flex-caption">Specialised information security consultancy services</p>
+				    </li>
+				    <li>
+				      <img src="img/slides/2.jpg" alt="alt text" />
+				      <p class="flex-caption">Specialists in security research and vulnerability discovery</p>
+				    </li>
+				    <li>
+				      <img src="img/slides/3.jpg" alt="alt text" />
+				      <p class="flex-caption">Specialist red team attack and defence training delivery capabilities</p>
+				    </li>
+				  </ul>
+				</div>
+				<div class="shadow-slider"></div>
+	        	<!-- ENDS slider -->
+	        	
+	        	
+	        	<!-- Headline -->
+	        	<div class="headline">
+	        		<h1 class="heading">Security Specialists :: Rest Secured</h1>
+	        		<p>Insomnia Security is a specialist information security company, with niche technical skills allowing us to deliver high quality penetration testing and other information security related services to our customers. Based in New Zealand we work with companies from around the globe assisting with their security requirements, allowing them to rest secured.</p>
+	        		<img id="cockroach" src="img/cockroach.png" alt="cockroach" />
+	        		
+	        	</div>
+	        	<!-- ENDS Headline -->
+	        	
+	        	<!-- featured -->
+	        	<div class="featured">
+      	    
+        			<figure>
+	        			<div>
+	        				<a href="/services" class="heading">Services</a>
+		        			<p>While we have a very technically focused team, Insomnia Security understands the subtle differences in security testing that companies require, and believes the best service we offer is the flexibility with which we work with our customers to provide a service and report that fits their requirements.</p>
+                            <p>Click on the link below to view the set of services we provide, or contact us to obtain further details.</p>
+                            <a href="/services" class="read-more">Read more</a></p>
+		        		</div>
+	        		</figure>
+	        			        	    
+	        		<figure>
+	        			<div>
+	        				<a href="/company-profile" class="heading">About Us</a>
+		        			<p>Insomnia Security is a New Zealand based company dedicated to providing highly specialised information security consultancy services to our customers.</p>
+		        			<p>With offices in Auckland and Wellington, as well as global partners around the world, we are well positioned to assist our customers with their security requirements.</p>
+            	        	<a href="/company-profile" class="read-more">Read more</a></p>
+            	        	</br></br>
+		        		</div>
+        		
+	        		</figure>
+		
+	        		<figure>
+	        			<div>
+	        				<a href="/events" class="heading">Upcoming Events</a>
+
+                            <p><a href="http://www.syscan.org/" target=_blank>SyScan 2014, Singapore</a><br>31 March - 04 April 2014, Insomnia is proud to be a sponsor of this fantastic conference in Singapore. The Insomnia team are regular attendees and speakers at this event, and look foward to being there in 2014.</p>                
+                            <a href="http://www.syscan.org/" target=_blank class="read-more">Read more</a></p>  
+                            
+                            <p><br><br><br><br></p>
+                            
+		        		</div>
+		        		
+	        		</figure>
+
+        			<figure>
+	        			<div>
+	        				<a class="heading">Latest News</a>
+	        				<a href="/capability-driven-testing-release">Capability Drive Testing (CDT) Release</a> 
+	        				<p>7th April 2014</p>
+		        			<p>Insomnia Security announced today a new service that will help ensure an organisation's operational security capability gaps are identified, and assist in the design and implementation of effective detection capability and attack countermeasures.</p>
+		        		<p>Further information can be found <a href=/capability-driven-testing-release>here</a></p>
+		        		</div>
+	        		</figure>
+	        		
+        			<figure>
+	        			<div>
+	        				<a class="heading">&nbsp;</a>
+	        				<a href="/">DIA Panel Selection</a> 
+	        				<p>7th November 2013</p>
+		        			<p>Insomnia Security is proud to announce that we have been selected by the Department of Internal Affairs as a supplier for the government's professional security services panel, which will provide security services to government agencies. This selection will allow us to provide penetration testing and source code review services to government agencies within New Zealand.</p>
+		        		<p>Further information can be found <a href=http://ict.govt.nz/common-capabilities/foundations/security-and-related-services-panel-/ target=_blank>here</a></p>
+		        		</div>
+	        		</figure>	        		
+	        		
+        			<figure>
+	        			<div>
+	        				<a class="heading">&nbsp;</a>
+	        				<a href="/crest-membership">CREST Certification</a> 
+	        				<p>4th May 2013</p>
+		        			<p>Insomnia Security is proud to announce that it is the first New Zealand based company to obtain the CREST certification under the Crest Australia organisation.</p>
+		        			<p>Further information can be found <a href=/crest-membership>here</a></p>
+		        			
+		        		</div>
+	        		</figure>
+
+	        		
+	        		<div class="clearfix"></div>
+	   			    
+    
+            	</div>  	
+    	        	        	
+	        	<!-- ENDS featured -->
+			</div>
+			<!-- ENDS content -->
+			
+			<div class="clearfix"></div>
+			
+		</div>
+		<!-- ENDS MAIN -->
+		
+		<footer>
+			<div class="wrapper">
+	<img id="footer-roach-1" class="footer-roach" src="../img/footer-roach-1.png" width="114px" height="125px" alt="cockroach">
+	<img id="footer-roach-2" class="footer-roach" src="../img/footer-roach-2.png" width="121px" height="106px" alt="cockroach">
+	<p class="footer-menu">&copy; 2007 &#45; 2014 Insomnia Security<span class="divider">&#124;</span>
+		<a href="/privacy">Privacy</a><span class="divider">&#124;</span>
+		<a href="/terms-conditions">Terms &amp; Conditions</a>
+	</p>
+	
+	<div class="clearfix"></div>
+</div>
+
+			<div id="to-top"></div>
+		</footer>
+
+	</body>
+	
+</html>
