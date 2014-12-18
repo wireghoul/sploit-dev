@@ -235,13 +235,13 @@ def bleed(targ, port):
                 continue
 
             # send starttls command if specified as an option or if common smtp/pop3/imap ports are used
-            if (opts.starttls) or (port in {25, 587, 110, 143, 21}):
+            if (opts.starttls) or (port in [25, 587, 110, 143, 21]):
                 
                 stls = False
                 atls = False
                 
                 # check if smtp supports starttls/stls
-                if port in {25, 587}:
+                if port in [25, 587]:
                     print 'SMTP Port... Checking for STARTTLS Capability...'
                     check = s.recv(1024)
                     s.send("EHLO someone.org\n")
@@ -263,7 +263,7 @@ def bleed(targ, port):
                         return
                 
                 # check if pop3/imap supports starttls/stls                            
-                elif port in {110, 143}:
+                elif port in [110, 143]:
                     print 'POP3/IMAP4 Port... Checking for STARTTLS Capability...'
                     check = s.recv(1024)
                     if port == 110:
@@ -288,7 +288,7 @@ def bleed(targ, port):
                         return
                         
                 # check if ftp supports auth tls/starttls                          
-                elif port in {21}:
+                elif port in [21]:
                     print 'FTP Port... Checking for AUTH TLS Capability...'
                     check = s.recv(1024)
                     s.send("FEAT\n")
