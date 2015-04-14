@@ -1,0 +1,9 @@
+#!/bin/sh
+if [ -z $1 ]; then
+    echo "Usage $0 <basedir> <directory> <url-prefix>"
+    echo " example: $0 /var/ www/ http://localhost/"
+    exit 2
+fi
+echo "Auditing file path under $1/$2"
+cd $1
+for url in `find $2 -type f`; do u="$3${url}";  curl -s -k $u | grep $1 >/dev/null; if [ $? == 0 ]; then echo $u; fi; done
