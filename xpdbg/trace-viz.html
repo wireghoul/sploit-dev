@@ -1,0 +1,177 @@
+<html>
+	<head>
+		<title>Runtime Assessment Dashboard/Observer</title>
+		<style>
+		body{margin:15;padding:1;font:14px/1.5 Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;background: #272822; color: #f8f8f2}
+		a:hover{text-decoration:underline;}
+		a {color: #a6e22e; text-decoration:none; }
+		a:visited {color: #666; text-decoration:none; }
+
+		.needlea {color:#a6e22e }
+		a.needlea:visited {color:#a6e22e }
+
+		.highlight { background-color: #66d9ef; padding: 2px; color: #333; font-size: 125%;}
+		.tr { color: #f92672 }
+  
+		table {
+			border:1px solid #a6e22e;
+            border-collapse:collapse;
+            font:11px/1.5 Helvetica Neue,Arial,Helvetica,'Liberation Sans',FreeSans,sans-serif;
+			width: 100%;
+			
+		}
+		td {border: none; padding: 1px; magin: 1px;}
+        tr {
+			border:1px solid #efefef;
+            border-collapse:collapse;
+            padding: 1px; magin: 1px;
+        }
+		td:hover {background-color: #f92672; color:black; }
+		tr:hover {background-color: black; border: 1px solid #f92672;}
+
+		pre {
+			font:14px/1.5 consolas,sans-serif;background: #272822; color: #f8f8f2
+		}
+
+		.trt {background-color: #a6e22e; color: black}
+
+		
+		</style>
+		<script type="text/javascript" src="web/jquery.js"></script>
+		<script type="text/javascript" src="web/jquery.timer.js"></script>
+		<script type="text/javascript" src="web/jquery.ba-bbq.min.js"></script>
+		<script type="text/javascript" src="web/jquery.highlight-3.yui.js"></script>
+		<script>
+		
+		var php_sinks = Array("db_query","die","echo","exit","print","assert","bind_textdomain_codeset","bindtextdomain","bzopen","bzwrite","call_user_func","call_user_func_array","chdir","chgrp","chmod","chown","chroot","com_load_typelib","constant","copy","create_function","curl_init","cyrus_connect","dba_delete","dba_exists","dba_fetch","dba_insert","dba_popen","dba_replace","dbase_add_record","dbase_create","dbase_delete_record","dbase_get_record","dbase_get_record_with_names","dbase_open","dbase_replace_record","dbx_connect","dbx_query","dcgettext","dcngettext","dgettext","dio_open","dio_write","dirname","dngettext","domxml_open_file","domxml_open_mem","domxml_xslt_stylesheet","domxml_xslt_stylesheet_file","eval","exec","fbsql_change_user","fbsql_connect","fbsql_create_blob","fbsql_create_db","fbsql_database","fbsql_database_password","fbsql_db_query","fbsql_drop_db","fbsql_pconnect","fbsql_query","fbsql_select_db","fbsql_set_password","fbsql_start_db","fbsql_stop_db","fbsql_username","fdf_add_doc_javascript","fdf_open","fopen","fsockopen","ftp_chdir","ftp_chmod","ftp_connect","ftp_exec","ftp_login","ftp_mkdir","ftp_raw","ftp_rename","ftp_rmdir","ftp_site","fwrite","gettext","gzopen","gzread","gzwrite","header","highlight_file","ibase_add_user","ibase_blob_echo","ibase_connect","ibase_delete_user","ibase_pconnect","ibase_prepare","ibase_query","iconv_set_encoding","id3_set_tag","ifx_connect","ifx_pconnect","ifx_query","image2wbmp","imagecreatefromgd","imagecreatefromgd2","imagecreatefromgd2part","imagecreatefromgif","imagecreatefromjpeg","imagecreatefromjpeg","imagecreatefromstring","imagecreatefromwbmp","imagecreatefromxbm","imagecreatefromxpm","imagegd","imagegd2","imagegif","imagejpeg","imagepng","imap_append","imap_createmailbox","imap_delete","imap_deletemailbox","imap_mail","imap_open","imap_reopen","imap_set_quota","imap_setacl","imap_setflag_full","imap_status","imap_unsubscribe","ingres_connect","ingres_pconnect","ircg_invite","ircg_join","ircg_msg","ircg_pconnect","ldap_connect","ldap_list","ldap_rename","ldap_search","link","mail","mb_send_mail","mkdir","move_uploaded_file","msession_connect","msession_create","msession_destroy","msession_find","msession_get","msession_get_array","msession_get_data","msession_lock","msession_set","msession_set_array","msession_set_data","msession_unlock","msg_send","msql","msql_connect","msql_create_db","msql_createdb","msql_db_query","msql_drop_db","msql_list_fields","msql_list_tables","msql_pconnect","msql_query","msql_select_db","mssql_connect","mssql_pconnect","mssql_query","mssql_select_db","mysql_change_user","mysql_connect","mysql_create_db","mysql_db_query","mysql_drop_db","mysql_query","mysqli_query","mysql_select_db","mysql_unbuffered_query","odbc_connect","odbc_exec","odbc_pconnect","opendir","openlog","ora_do","ora_plogon","ovrimos_connect","ovrimos_exec","parse_ini_file","parse_str","parse_url","parsekit_compile_string","passthru","pcntl_exec","pfpro_process","pfpro_process_raw","pfsockopen","pg_connect","pg_insert","pg_pconnect","pg_query","pg_select","pg_send_query","php_check_syntax","popen","print_r","printf","proc_open","putenv","readfile","readgzfile","readline","readlink","register_shutdown_function","register_tick_function","rename","rmdir","scandir","session_id","session_register","session_save_path","set_include_path","set_time_limit","setcookie","setlocale","setrawcookie","shell_exec","sleep","socket_connect","socket_create_listen","socket_write","stream_context_set_option","stream_context_set_params","sybase_connect","sybase_pconnect","sybase_query","sybase_select_db","sybase_unbuffered_query","symlink","syslog","system","touch","trigger_error","unlink","vprintf","vsprintf","file_put_contents","ibase_service_attach","ibase_wait_event","mysqli_change_user","mysqli","mysqli_embedded_connect","mysqliselect_db","mysqlisend_query","oci_connect","oci_pconnect","quotemeta","SQLiteDatabase->arrayQuery","SQLiteDatabase->exec","sqlite_popen","SQLiteDatabase->singleQuery","SQLiteDatabase->unbufferedQuery","stream_socket_client","time_nanosleep");
+
+		function is_php_sink(rts) {
+			return -1 < $.inArray(rts, php_sinks);
+		}
+
+		var previous_hash = '';
+
+		// events
+		var previous_highlight = "";
+		$(function(){
+			$(document).everyTime(5000, function(_times) {
+				start_pulling();
+			});
+			$(window).bind("hashchange", function(e) {
+				hash_change();
+			});
+			start_pulling();
+			$(window).trigger("hashchange");
+		});
+		
+		function show_e(_id) {$(_id).show();}
+		function hide_e(_id) {$(_id).hide();}
+		function raw_e(_id) {$(_id).show();}
+		
+		// start pulling data from the local file system
+		function start_pulling() {
+			var returned_value;
+			$.ajax({
+				url: "assmnt-data.json",
+				contentType: 'application/json',
+				success: function(data) {
+					returned_value = jQuery.parseJSON(data);
+				},
+				async: false
+			  });
+			if (returned_value)
+				process_data(returned_value);
+		}
+		
+		function hash_change() {
+			if ($.param.fragment())
+				$("#content").removeHighlight().highlight(decodeURI($.param.fragment()));
+		}
+		
+		function generate_list(lst) {
+			var ret = "<li>";
+			for (var e in lst)
+				ret += "<a class='needlea' href=\"#" + encodeURI(lst[e]) + "\">" + lst[e] + "</a>,&nbsp;";
+			ret += "</li>";
+			return ret;
+		}
+		
+		function create_fctcall_element(elmt) {
+			var ret = "<tr>";
+			// create a bunch of tds
+			var addon_cls = "";
+			if (is_php_sink(elmt[3]))
+				addon_cls = "class='trt'";
+			for (var e in elmt) {
+				ret += "<td " + addon_cls + ">" + $('<div/>').text(elmt[e]).html() + "</td>";
+			}
+			ret += "</tr>";
+			return ret;
+		}
+
+		// Access to one trace, display it
+		function generate_trace_data(tr, d) {
+			var trace_id = '#' + tr;
+			var data_id = "#sub-" + tr;
+			var raw_id = '#raw-' + tr;
+			$('#lastupdated').html("Last Update: " + (new Date()).toTimeString());
+			if  (!$(trace_id).html()) {
+				$("<div id=\"" + tr + "\">&nbsp;<a href=\"javascript:show_e('" + data_id + "')\">(show)</a>&nbsp;<a href=\"javascript:hide_e('" + data_id + "')\">(hide)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class='tr' href='./cache/" + tr + ".html'>./trace " + $('<div/>').text(tr).html() + "</a></div>").prependTo("#trace");
+
+				$("<div id=\"" + data_id.replace('#', '') + "\"/>").appendTo(trace_id);
+				$(data_id).hide();
+
+				if (d.trace[tr].callchain.length) {			
+					var table_id = 'table-' + tr;
+					$("<table id=\"" + table_id + "\">").appendTo(data_id);
+					table_id = '#' + table_id;
+					
+					$.each(d.trace[tr].callchain, function(e) {
+						var elmt = d.trace[tr].callchain[e];
+						$(table_id).append(create_fctcall_element(elmt));
+					});
+				}
+
+				$("<div id=\"" + raw_id.replace('#', '') + "\"/>").appendTo(trace_id);
+				$(raw_id).hide();
+			}
+		}
+		var i = 0;
+		function process_data(d) {
+				if (previous_hash == d.hash)
+					return;
+				var injected_strings = generate_list(d.injected);
+				$("#payloads").html("<ul>" + injected_strings + "</ul>");
+				
+				var tids = [];
+				$.each(d.trace, function(tr) {
+					tids.push(tr);
+				});
+				tids.sort();
+			
+				$.each(tids, function(tr) {
+					generate_trace_data(tids[tr], d);
+				});
+				hash_change();
+				i += 1;
+		}
+		</script>
+	</head>
+	<body>
+	<div id="content">
+	<h1>Runtime Assessment Dashboard</h1>
+	<div id="header">
+		<h2>Stored payload tracking needles</h2>
+		<div id="payloads" />
+	</div>
+	<h2>Captured Traces</h2>
+	<div id="display">
+		<pre>
+		<div id="lastupdated">now</div>
+		<div id="trace"></div>
+		</pre>
+	</div>
+	</div>
+	</body>
+</html>
+	
