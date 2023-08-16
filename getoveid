@@ -1,0 +1,14 @@
+#!/bin/bash
+
+getoveid() {
+curl -s -d "submit=More" https://www.openwall.com//cgi/ove.cgi | grep -oE OVE-[0-9]+-[0-9]+
+}
+
+if [ -z $1 ]; then
+getoveid
+exit 0
+fi
+
+for c in `seq 1 $1`; do
+getoveid
+done
